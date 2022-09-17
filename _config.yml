@@ -1,0 +1,38 @@
+title: tsumarios' blog
+description: >
+  Cybersec and Research - A cool description might be something like "a place where I post about my research and share resources".
+
+author:
+  name: Mario Raciti
+  email: "marioraciti@pm.me"
+
+highlighter: rouge
+markdown: kramdown          
+show_excerpts: true
+excerpt_separator: "<!-- readmore -->"
+permalink: pretty
+url: https://tsumarios.github.io
+baseurl: /blog
+
+header_pages:
+  - about.md
+  - privacy.md
+
+minima:
+  skin: auto
+
+  date_format: "%b %-d, %Y"
+
+  social_links:
+    twitter: tsumarios
+    github: tsumarios
+    instagram: tsumarios
+    linkedin: marioraciti
+    keybase: marioraciti
+
+remote_theme: jekyll/minima
+
+plugins:
+ - jekyll-feed
+ - jekyll-remote-theme
+ - jekyll-seo-tag
