@@ -1,0 +1,28 @@
+---
+layout: default
+title: Tags
+permalink: /tags/
+---
+
+<h1>{{ page.title }}</h1>
+
+<div>
+    {% capture tags %}
+    {% for tag in site.tags %}
+    {{ tag[0] }}
+    {% endfor %}
+    {% endcapture %}
+    {% assign sortedtags = tags | split:' ' | sort %}
+
+    {% for tag in sortedtags %}
+    <h3 id="{{ tag }}"><i>#{{ tag }}</i></h3>
+    <ul>
+        {% for post in site.tags[tag] %}
+        <li>
+            <span><big><a href="{{ post.url | relative_url }}">{{ post.title }}</a></big> {{ post.date | date_to_string }}</span>
+            <p>{{ post.excerpt }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+</div>
