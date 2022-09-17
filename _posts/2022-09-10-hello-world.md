@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello, World!"
-date:   2022-09-17
+date:   2022-09-10
 author:
   - Mario Raciti
 tags: 
