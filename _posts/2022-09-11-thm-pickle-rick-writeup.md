@@ -235,4 +235,4 @@ cat 3rd.txt
 
 ### That's all folks
 
-You can find the files related to this CTF at <https://github.com/tsumarios/CTF-Writeups/tree/master/THM/Pickle-Rick>
+You can find the files related to this CTF at <https://github.com/tsumarios/CTF-Writeups/tree/master/THM/Pickle-Rick>.
