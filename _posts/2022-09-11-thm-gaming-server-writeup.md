@@ -4,7 +4,7 @@ title:  "THM - GamingServer Writeup"
 date:   2022-09-11
 author:
   - Mario Raciti
-tags: ctf offensive vapt
+tags: ctf
 ---
 
 The aim of this room is to gain access to a gaming server built by amateurs with no experience of web development and to take advantage of the deployment system.

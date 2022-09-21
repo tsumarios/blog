@@ -4,7 +4,7 @@ title:  "Kali Linux on a Docker Container: the easiest way"
 date:   2022-09-17
 author:
   - Mario Raciti
-tags: docker offensive vapt
+tags: docker offensive
 ---
 
 A simple dockerfile which allows you to build a docker image starting from the latest official one of Kali Linux and including some useful tools.
