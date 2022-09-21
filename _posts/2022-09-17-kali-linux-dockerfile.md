@@ -12,6 +12,8 @@ A simple dockerfile which allows you to build a docker image starting from the l
 
 ![cover](https://www.kali.org/blog/official-kali-linux-docker-images/images/kali-linux-docker-images.jpg)
 
+*Awareness without action is worthless*. - Phil McGraw
+
 You do need **Kali Linux** for work purposes, but you think that creating and using a *virtual machine* might be **dispendious** for your physical host. So, if you don’t need the *Kali GUI*, here is a **solution** to performance problems and waste of time: a **Docker container**. In this article, I will show you a fast way to get a Kali container. Besides, you will also learn how to build a *self-updated* image of Kali, that includes some *useful tools*, in order to create a **customised container**.
 
 ---
