@@ -7,7 +7,7 @@ author:
 tags: web hardening
 ---
 
-A simple PoC about adding a ticket-based authentication layer in a WebSocket server.
+WebSocket security aspects and a simple PoC about adding a ticket-based authentication layer in a WebSocket server.
 <!-- readmore -->
 
 ![cover](https://images.unsplash.com/photo-1618044619888-009e412ff12a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80)
@@ -16,7 +16,7 @@ A simple PoC about adding a ticket-based authentication layer in a WebSocket ser
 
 ### Before proceeding
 
-This post is an extract translated from my "WebSocket (In)Security and Authentication" articles (written in Italian) available at <https://blog.rev3rse.it/websocket-insecurity-1> and <https://blog.rev3rse.it/websocket-insecurity-2> where WebSocket security is discussed at a more generic level.
+This post is an extract translated from my "WebSocket (In)Security and Authentication" articles (written in Italian) available at <https://blog.rev3rse.it/websocket-insecurity-1> and <https://blog.rev3rse.it/websocket-insecurity-2> where WebSocket security is discussed at a more generic level. The complete code of the PoC can be found at <https://github.com/tsumarios/Hardened-WebSocket-Server>.
 
 ---
 
