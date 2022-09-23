@@ -4,7 +4,7 @@ title:  "THM - ConvertMyVideo Writeup"
 date:   2022-09-11
 author:
   - Mario Raciti
-tags: ctf offensive vapt
+tags: ctf
 ---
 
 You can convert your videos - Why don't you check it out!
