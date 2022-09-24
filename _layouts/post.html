@@ -17,7 +17,7 @@ layout: default
         {{ mdate | date: date_format }}
       </time>
       {%- endif -%}
-      • <span>{% include read-time.html content=content %} </span>
+      • <span>{% include read-time.html postContent=content %} </span>
       {%- if page.author -%}
       • {% for author in page.author %}
       <span itemprop="author" itemscope itemtype="http://schema.org/Person">
