@@ -10,9 +10,11 @@ highlighter: rouge
 markdown: kramdown          
 show_excerpts: true
 excerpt_separator: "<!-- readmore -->"
+paginate: 5
 permalink: pretty
 url: https://tsumarios.github.io
 baseurl: /blog
+favicon: https://github.com/tsumarios/tsumarios.github.io/blob/master/assets/img/icon.png
 
 header_pages:
   - about.md
@@ -34,5 +36,6 @@ remote_theme: jekyll/minima
 
 plugins:
  - jekyll-feed
+ - jekyll-paginate
  - jekyll-remote-theme
  - jekyll-seo-tag
