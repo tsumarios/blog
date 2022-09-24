@@ -1,2 +1,2 @@
-{% assign words = content | strip_html | number_of_words %}
+{% assign words = post_content | strip_html | number_of_words %}
 <span>{{ words | divided_by: 180 | plus: 1 }} min read</span>
