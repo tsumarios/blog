@@ -17,7 +17,7 @@
     {%- if sameTagCount >= minCommonTags -%}
       <li>
         <h4>
-          <span><big><a href="{{ post.url | relative_url }}">{{ post.title }}</a></big> • {{ post.date | date_to_string }} • {% include read-time.html postContent=post.content %}</span>
+          <span><big><a href="{{ post.url | relative_url }}">{{ post.title }}</a></big> • {{ post.date | date_to_string }} • {% include read-time.html content=post.content %}</span>
         </h4>
       </li>
       {%- assign maxRelatedCounter = maxRelatedCounter | plus: 1 -%}
