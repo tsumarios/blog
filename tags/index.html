@@ -12,6 +12,7 @@ permalink: /tags/
     {{ tag[0] }}
     {% endfor %}
     {% endcapture %}
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     {% assign sortedtags = tags | split:' ' | sort %}
 
     {% for tag in sortedtags %}
