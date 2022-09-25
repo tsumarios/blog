@@ -26,7 +26,8 @@ layout: default
       {% endfor %}
       {%- endif -%}
       {%- if page.tags -%}
-      •<span>
+      <br>
+      <span>
         {%- for tag in page.tags -%}
         <a href="{{ site.baseurl }}/tags/#{{ tag }}"> {{ tag }}</a>
         {%- if forloop.last != true -%}, {%- endif -%}
