@@ -5,12 +5,11 @@ description: >
 author:
   name: Mario Raciti
   email: "marioraciti@pm.me"
-
-highlighter: rouge
-markdown: kramdown          
+       
 show_excerpts: true
 excerpt_separator: "<!-- readmore -->"
 paginate: 5
+paginate_path: /page/:num/
 permalink: pretty
 url: https://tsumarios.github.io
 baseurl: /blog
@@ -19,6 +18,10 @@ favicon: https://github.com/tsumarios/tsumarios.github.io/blob/master/assets/img
 header_pages:
   - about.md
   - privacy.md
+
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge  
 
 minima:
   skin: auto
@@ -35,7 +38,9 @@ minima:
 remote_theme: jekyll/minima
 
 plugins:
- - jekyll-feed
- - jekyll-paginate
- - jekyll-remote-theme
- - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jemoji
+  - rouge
