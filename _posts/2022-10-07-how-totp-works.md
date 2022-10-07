@@ -4,7 +4,7 @@ title:  "How TOTP Works"
 date:   2022-10-07
 author:
   - Mario Raciti
-tags: authentication
+tags: hardening
 ---
 
 A basic explaination about Time-based one-time password (TOTP) and a simple Python PoC.
@@ -34,12 +34,12 @@ In this article **we describe the TOTP algorithm and provide a simple Python PoC
 
 Parties intending to use HOTP must establish some parameters, which are typically specified by the authenticator, and either accepted or not by the authenticated:
 
-- a cryptographic hash function $H$ (default is SHA-1);
-- a secret key $K$, which is an arbitrary byte string and must remain private;
-- a counter $C$, which counts the number of iterations;
-- a HOTP value length $d$ (6–10, default is 6, and 6–8 is recommended).
+- a cryptographic hash function $`H`$ (default is SHA-1);
+- a secret key $`K`$, which is an arbitrary byte string and must remain private;
+- a counter $`C`$, which counts the number of iterations;
+- a HOTP value length $`d`$ (6–10, default is 6, and 6–8 is recommended).
 
-Both parties compute the HOTP value derived from the secret key $K$ and the counter $C$. Then the authenticator checks its locally generated value against the value supplied by the authenticated. Both parties increment the counter $C$ independently of each other. This should set alarm bells ringing, because it **HOTP has a potential synchronisation issue** here. The authenticator's counter continues forward of the value at which verification succeeds and requires no actions by the authenticated. Essentially, what occurs is the autenticator remembers the last counter value which resulted in successful validation. Whenever a new OTP needs to be validated, the server will try $C+1$, $C+2$, etc., until it gets the one that matches. Or until it arrives at what is called a *look-ahead window*. The recommendation is made that persistent throttling of HOTP value verification take place, to address their relatively small size and thus **vulnerability to brute-force attacks**. It is suggested to lock out verification after a small number of failed attempts or that each failed attempt attracts an additional (linearly increasing) delay.
+Both parties compute the HOTP value derived from the secret key $`K`$ and the counter $`C`$. Then the authenticator checks its locally generated value against the value supplied by the authenticated. Both parties increment the counter $`C`$ independently of each other. This should set alarm bells ringing, because it **HOTP has a potential synchronisation issue** here. The authenticator's counter continues forward of the value at which verification succeeds and requires no actions by the authenticated. Essentially, what occurs is the autenticator remembers the last counter value which resulted in successful validation. Whenever a new OTP needs to be validated, the server will try $`C+1`$, $`C+2`$, etc., until it gets the one that matches. Or until it arrives at what is called a *look-ahead window*. The recommendation is made that persistent throttling of HOTP value verification take place, to address their relatively small size and thus **vulnerability to brute-force attacks**. It is suggested to lock out verification after a small number of failed attempts or that each failed attempt attracts an additional (linearly increasing) delay.
 
 ## TOTP
 
@@ -47,19 +47,23 @@ Both parties compute the HOTP value derived from the secret key $K$ and the coun
 
 To establish TOTP authentication, the authenticated and authenticator must pre-establish both the *HOTP parameters* and the following *TOTP parameters*:
 
-- $T_0$, the Unix time from which to start counting time steps (default is 0);
-- $T_x$, an interval which will be used to calculate the value of the counter $C_t$ (default is 30 seconds).
+- $`T_0`$, the Unix time from which to start counting time steps (default is 0);
+- $`T_x`$, an interval which will be used to calculate the value of the counter $`C_t`$ (default is 30 seconds).
 
 The counter $C_t$ is thus based on the current time, as follows:
 
-$$C_t = \lfloor \frac{T-T_0}{T_x} \rfloor$$
+$$`C_t = \lfloor \frac{T-T_0}{T_x} \rfloor`$$
+
+```math
+C_t = \lfloor \frac{T-T_0}{T_x} \rfloor
+```
 
 where:
 
-- $C_t$ is the count of the number of durations $T_x$ between $T_0$ and $T$;
-- $T$ is the current time in seconds since a particular epoch;
-- $T_0$ is the epoch as specified in seconds since the Unix epoch (e.g., if using Unix time, then $T_0$ is 0);
-- $T_x$ is the length of one time duration (e.g. 30 seconds).
+- $`C_t`$ is the count of the number of durations $`T_x`$ between $`T_0`$ and $`T`$;
+- $`T`$ is the current time in seconds since a particular epoch;
+- $`T_0`$ is the epoch as specified in seconds since the Unix epoch (e.g., if using Unix time, then $`T_0`$ is 0);
+- $`T_x`$ is the length of one time duration (e.g. 30 seconds).
 
 In short, the **inputs to the TOTP algorithm are device time and a stored secret key**. Neither the inputs nor the calculation require Internet connectivity to generate or verify a token. Therefore a user can access TOTP via an app (e.g., Google Authenticator, Authy, etc.) while offline. Both the authenticator and the authenticated compute the TOTP value, then the authenticator checks whether the TOTP value supplied by the authenticated matches the locally generated TOTP value. Some authenticators allow values that should have been generated before or after the current time in order to account for slight clock skews, network latency and user delays.
 
