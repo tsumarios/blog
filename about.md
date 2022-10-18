@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-# Welcome to my new blog
+**Welcome to my new blog!**
 
 <img src="https://avatars.githubusercontent.com/u/23482292" alt="Profile Pic" height="200">
 
