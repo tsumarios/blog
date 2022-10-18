@@ -72,7 +72,53 @@ Both methods use a secret key as one of the inputs, but while TOTP uses the syst
 
 Below a simple Python PoC implementation of the TOPT algorithm - the script is also available [here](https://gist.github.com/tsumarios/ca1647dad192d8558940e0d30b6e4f1b) -, based on the [mintotp](https://github.com/susam/mintotp) module.
 
-{% gist ca1647dad192d8558940e0d30b6e4f1b totp_generator.py  %}
+```python
+#!/usr/bin/env python3
+
+import base64
+import datetime
+import hmac
+import os
+import struct
+import time
+import sys
+
+
+# This key should be kept hidden (e.g., in env variables, here supposed to be OTP_SHARED_KEY). The string here provided as default value is Base32 encoded and is just for the sake of demo.
+KEY = os.environ.get('OTP_SHARED_KEY', 'ORZXK3LBOJUW643CNRXWO2LTMF3WK43PNVSQ====')
+
+
+def hotp(key, counter, digits=6, digest='sha1'):
+    key = base64.b32decode(key.upper() + '=' * ((8 - len(key)) % 8))
+    counter = struct.pack('>Q', counter)
+    mac = hmac.new(key, counter, digest).digest()
+    offset = mac[-1] & 0x0f
+    binary = struct.unpack('>L', mac[offset:offset+4])[0] & 0x7fffffff
+    return str(binary)[-digits:].zfill(digits)
+
+
+def totp(key, time_step=30, digits=6, digest='sha1'):
+    return hotp(key, int(time.time() / time_step), digits, digest)
+
+
+def main():
+    while True:
+        # Generate a new OTP every second by using TOTP.
+        # NOTE: every 30s the OTP value will change :D
+        try:
+            secs = 30 - datetime.datetime.utcnow().second % 30
+            otp_code = totp(KEY.strip())
+            timer = '{:02d}s'.format(secs)
+            print(f"OTP: {otp_code} (expires in {timer})", end="\r")
+            time.sleep(1)
+        except KeyboardInterrupt:
+            print('', end="\r")
+            sys.exit(0)
+
+
+if __name__ == '__main__':
+    main()
+```
 
 The [HOTP algorithm](https://tools.ietf.org/html/rfc4226#section-5) is implemented using the `hmac` Python module in the `hotp()` function, which takes a Base32-encoded secret key and a counter as input and returns a 6-digit HOTP value as output. The `totp()` function implements the [TOTP algorithm](https://www.rfc-editor.org/rfc/rfc6238#section-4), wrapping around the HOTP algorithm. The TOTP value is then obtained by invoking the HOTP function with the secret key and the number of time  intervals (30 second intervals by default) that have elapsed since Unix epoch (1970-01-01 00:00:00 UTC).
 
