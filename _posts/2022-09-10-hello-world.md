@@ -11,9 +11,9 @@ tags:
 Hello, World!
 <!-- readmore -->
 
-<img src="https://avatars.githubusercontent.com/u/23482292" alt="Profile Pic" height="200">
-
 **Welcome to my new blog!**
+
+<img src="https://avatars.githubusercontent.com/u/23482292" alt="Profile Pic" height="200">
 
 After few attempts on undestanding how to use Jekyll within Github Pages I managed to publish my blog (at least if you are seeing this, then it works!).
 
