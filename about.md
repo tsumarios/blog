@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Welcome to my new blog!
+# Welcome to my new blog
+
+<img src="https://avatars.githubusercontent.com/u/23482292" alt="Profile Pic" height="200">
 
 I'm Mario Raciti (aka tsumarios) and I'm a Security Researcher who after few attempts on undestanding how to use Jekyll within Github Pages managed to publish his own blog (or at least if you are seeing this, then it works!).
 

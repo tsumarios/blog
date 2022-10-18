@@ -2,9 +2,10 @@
 layout: post
 title:  "How TOTP Works"
 date:   2022-10-07
+last_modified_at: 2022-10-18
 author:
   - Mario Raciti
-tags: hardening
+tags: cryptography hardening
 ---
 
 A basic explaination about Time-based one-time password (TOTP) and a simple Python PoC.
