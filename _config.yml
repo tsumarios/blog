@@ -13,7 +13,7 @@ paginate_path: /page/:num/
 permalink: pretty
 url: https://tsumarios.github.io
 baseurl: /blog
-favicon: https://avatars.githubusercontent.com/u/23482292
+favicon: https://tsumarios.github.io/favicon.ico
 
 header_pages:
   - about.md
