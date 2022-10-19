@@ -2,6 +2,7 @@
 layout: post
 title:  "WebSocket (in)Security and Authentication"
 date:   2022-09-23
+modified_date: 2022-10-19
 author:
   - Mario Raciti
 tags: web hardening
@@ -16,7 +17,7 @@ WebSocket security aspects and a simple PoC about adding a ticket-based authenti
 
 ### Before proceeding
 
-This post is an extract translated from my "WebSocket (In)Security and Authentication" articles (written in Italian) available at <https://blog.rev3rse.it/websocket-insecurity-1> and <https://blog.rev3rse.it/websocket-insecurity-2> where WebSocket security is discussed at a more generic level. The complete code of the PoC can be found at <https://github.com/tsumarios/Hardened-WebSocket-Server>.
+This blog post is an extract translated from my "WebSocket (In)Security and Authentication" articles (written in Italian) available at <https://blog.rev3rse.it/websocket-insecurity-1> and <https://blog.rev3rse.it/websocket-insecurity-2> where WebSocket security is discussed at a more generic level. The complete code of the PoC can be found at <https://github.com/tsumarios/Hardened-WebSocket-Server>.
 
 ---
 
