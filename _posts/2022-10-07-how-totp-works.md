@@ -70,7 +70,7 @@ Both methods use a secret key as one of the inputs, but while TOTP uses the syst
 
 ## TOTP PoC
 
-Below a simple Python PoC implementation of the TOPT algorithm - the script is also available [here](https://gist.github.com/tsumarios/ca1647dad192d8558940e0d30b6e4f1b) -, based on the [mintotp](https://github.com/susam/mintotp) module.
+Below a simple Python PoC implementation of the TOTP algorithm - the script is also available [here](https://gist.github.com/tsumarios/ca1647dad192d8558940e0d30b6e4f1b) -, based on the [mintotp](https://github.com/susam/mintotp) module.
 
 ```python
 #!/usr/bin/env python3
