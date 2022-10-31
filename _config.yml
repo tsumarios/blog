@@ -30,6 +30,9 @@ minima:
 
   social_links:
     twitter: tsumarios
+    mastodon:
+      - username: tsumarios
+        instance: infosec.exchange
     github: tsumarios
     instagram: tsumarios
     linkedin: marioraciti
