@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello, World!"
 date:   2022-09-10
-modified_date: 2022-10-18
+modified_date: 2022-10-31
 author:
   - Mario Raciti
 tags: 
@@ -31,6 +31,7 @@ The bootstrap phase includes the relocation of some articles of mine from other 
 
 Feel free to follow me also on my socials to stay updated on new posts:
 
+- Mastodon: [tsumarios](https://infosec.exchange/@tsumarios)
 - Twitter: [tsumarios](https://twitter.com/tsumarios)
 - Instagram: [tsumarios](https://instagram.com/tsumarios)
 - TikTok: [tsumarios](https://tiktok.com/tsumarios)
