@@ -18,7 +18,7 @@ I decided to create a blog under my [main Website](https://tsumarios.github.io/)
 
 - avoid spreading posts all over different places;
 - gather my notes and resource in one place;
-- hopefully share my knowledge to the community.
+- hopefully share my knowledge and research to the community.
 
 So this blog is supposed to provide useful **cybersecurity-related** articles, tutorials and resources.
 
