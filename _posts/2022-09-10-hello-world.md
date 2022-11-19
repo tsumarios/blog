@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello, World!"
 date:   2022-09-10
-modified_date: 2022-10-31
+modified_date: 2022-11-19
 author:
   - Mario Raciti
 tags: 
@@ -23,7 +23,7 @@ I decided to create a blog under my [main Website](https://tsumarios.github.io/)
 
 - avoid spreading posts all over different places;
 - gather my notes and resource in one place;
-- hopefully share my knowledge to the community.
+- hopefully share my knowledge and research to the community.
 
 ### Stay Tuned
 
