@@ -15,6 +15,6 @@ If you do not accept Github's conditions, please do NOT continue browsing this W
 
 This Website is indexed by Google under the following main domain <https://tsumarios.github.io/> which adopts Google Analytics for the only purposes of indexing, traffic tracking and reporting. Google may use the collected data to contextualise and personalise the ads of its own advertising network, **outside** of this Website domain.
 
-For more information on the privacy practices by Google, please visit the [Google Privacy & Terms](https://policies.google.com/privacy) page.
+For more information on the privacy practices by Google, please visit the [Google Privacy & Terms](https://policies.google.com/privacy).
 
 If you have any questions regarding your privacy rights, please contact me via email and I will be glad to help you providing the information you need.
