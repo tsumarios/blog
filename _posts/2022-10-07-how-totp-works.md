@@ -4,7 +4,7 @@ title:  "How TOTP Works"
 date:   2022-10-07
 modified_date: 2022-10-18
 author:
-  - Mario Raciti
+  - "Mario Raciti"
 tags: cryptography hardening
 ---
 

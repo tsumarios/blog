@@ -4,7 +4,7 @@ title:  "WebSocket (in)Security and Authentication"
 date:   2022-09-23
 modified_date: 2022-10-19
 author:
-  - Mario Raciti
+  - "Mario Raciti"
 tags: web hardening
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Kali Linux on a Docker Container: the easiest way"
 date:   2022-09-17
 author:
-  - Mario Raciti
+  - "Mario Raciti"
 tags: docker offensive
 ---
 
