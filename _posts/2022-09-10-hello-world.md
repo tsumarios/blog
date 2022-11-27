@@ -4,7 +4,7 @@ title:  "Hello, World!"
 date:   2022-09-10
 modified_date: 2022-11-19
 author:
-  - Mario Raciti
+  - "Mario Raciti"
 tags: 
 ---
 

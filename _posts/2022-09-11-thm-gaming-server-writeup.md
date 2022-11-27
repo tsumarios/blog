@@ -3,7 +3,7 @@ layout: post
 title:  "THM - GamingServer Writeup"
 date:   2022-09-11
 author:
-  - Mario Raciti
+  - "Mario Raciti"
 tags: ctf
 ---
 

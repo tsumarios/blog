@@ -3,7 +3,7 @@ layout: post
 title:  "Visual Cryptography Explained"
 date:   2022-10-21
 author:
-  - Mario Raciti
+  - "Mario Raciti"
 tags: cryptography dfir
 ---
 
