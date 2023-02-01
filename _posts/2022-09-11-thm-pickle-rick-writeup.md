@@ -58,7 +58,7 @@ Let's start by visiting the homepage of the web server listening on port 80. By 
 
 Thus, we can guess that a candidate username for a login could be `R1ckRul3s`.
 
-Now let's give a look if the web server provides a `robots.txt` file:
+Now let's look if the web server provides a `robots.txt` file:
 
 ```
 GET http://$IP/robots.txt
@@ -115,7 +115,7 @@ It seems that we found some... rubbish!
 
 Let's try the `R1ckRul3s:Wubbalubbadubdub` login combination in the portal login page found at `$IP/login.php`.
 
-Bingo! We have access to the command panel. Thus, we can try to execute an ls command to see if there is something interesting:
+Bingo! We have access to the command panel. Thus, we can try to execute an ls command to see if something is interesting:
 
 ```sh
 $ ls
@@ -197,7 +197,7 @@ cat *
 
 ## Third ingredient
 
-In order to get the latest ingredient we have to elevate our privileges. Let's check out a `sudo -l` for our current user, `www-data`:
+To get the latest ingredient we have to elevate our privileges. Let's check out a `sudo -l` for our current user, `www-data`:
 
 ```sh
 www-data@ip-10-10-166-156:/var/www/html$ sudo -l

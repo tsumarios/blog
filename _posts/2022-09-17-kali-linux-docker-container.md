@@ -14,7 +14,7 @@ A simple dockerfile which allows you to build a docker image starting from the l
 
 *Awareness without action is worthless*. - Phil McGraw
 
-You do need **Kali Linux** for work purposes, but you think that creating and using a *virtual machine* might be **dispendious** for your physical host. So, if you don’t need the *Kali GUI*, here is a **solution** to performance problems and waste of time: a **Docker container**. In this article, I will show you a fast way to get a Kali container. Besides, you will also learn how to build a *self-updated* image of Kali, that includes some *useful tools*, in order to create a **customised container**.
+You do need **Kali Linux** for work purposes, but you think that creating and using a *virtual machine* might be **dispendious** for your physical host. So, if you don’t need the *Kali GUI*, here is a **solution** to performance problems and waste of time: a **Docker container**. In this article, I will show you a fast way to get a Kali container. Besides, you will also learn how to build a *self-updated* image of Kali, which includes some *useful* tools*, to create a **customised container**.
 
 ---
 
@@ -42,11 +42,11 @@ and **we are done**! Now you have your **Kali Linux container** perfectly *worki
 
 ## Kali Linux from a Dockerfile
 
-The more elegant and recommended way to build a Docker image is to write a **Dockerfile**. So I wrote a Dockerfile - you can find it at <https://github.com/tsumarios/Kali-Linux-Dockerfile> - that you could *modify* by adding or removing tools, commands and configurations files, as you prefer. This Dockerfile gets the [latest official Kali Linux Docker image](https://hub.docker.com/r/kalilinux/kali-rolling) and, after doing some updates, installs some tools such as **zsh shell**, which is my favourite one, and the [Kali Linux Top 10 metapackage](https://hub.docker.com/r/kalilinux/kali-rolling). Other included tools are: *exploitdb, man-db, dirb, nikto, wpscan, uniscan, tor, proxychains*.
+The more elegant and recommended way to build a Docker image is to write a **Dockerfile**. So I wrote a Dockerfile - you can find it at <https://github.com/tsumarios/Kali-Linux-Dockerfile> - that you could *modify* by adding or removing tools, commands and configuration files, as you prefer. This Dockerfile gets the [latest official Kali Linux Docker image](https://hub.docker.com/r/kalilinux/kali-rolling) and, after doing some updates, installs some tools such as **zsh shell**, which is my favourite one, and the [Kali Linux Top 10 metapackage](https://hub.docker.com/r/kalilinux/kali-rolling). Other included tools are: *exploitdb, man-db, dirb, nikto, wpscan, uniscan, tor, proxychains*.
 
 ### Build Kali Image
 
-In order to build an *image* from this dockerfile, just go in the folder where it is located and simple open your favourite **Terminal**, typing as follows:
+To build an *image* from this dockerfile, just go into the folder where it is located and simply open your favourite **Terminal**, typing as follows:
 
 ```sh
 docker build [-t your_image_name] .
@@ -56,13 +56,13 @@ Note that with the -t parameter you can specify a customised name for the image,
 
 ### Create Kali Container
 
-At this point, you have to create a new *container* from the just built image, by typing:
+At this point, you have to create a new *container* from the just-built image, by typing:
 
 ```sh
 docker run -ti <your_image_name>
 ```
 
-Note that, unlikely the case of the *standard official image*, you haven’t to specify the *entry point*. This is due to the last row in our Dockerfile which sets the *entry point* to the *zsh shell*.
+Note that, unlikely the case of the *standard official image*, you don't need to specify the *entry point*. This is due to the last row in our Dockerfile which sets the *entry point* to the *zsh shell*.
 
 Now you have your **fully customised** *Kali Linux container* running!
 
@@ -70,7 +70,7 @@ Now you have your **fully customised** *Kali Linux container* running!
 
 ## Conclusions
 
-Docker is a powerful tool which *simplifies* lots of processes. Indeed, as we saw, you can easy create a *ready to use* **Kali Linux container** in a few minutes. Moreover, a Dockerfile makes configurations *easier, fully customisable* - including your favourite and useful tools - and *repeteable*.
+Docker is a powerful tool which *simplifies* lots of processes. Indeed, as we saw, you can easily create a *ready-to-use* **Kali Linux container** in a few minutes. Moreover, a Dockerfile makes configurations *easier, fully customisable* - including your favourite and useful tools - and *repeatable*.
 
 ---
 

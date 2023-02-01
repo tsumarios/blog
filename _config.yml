@@ -30,11 +30,13 @@ minima:
 
   social_links:
     - { platform: rss, user_url: "/blog/feed.xml" }
+    - { platform: github, user_url: "https://github.com/tsumarios"}
     - { platform: twitter, user_url: "https://twitter.com/tsumarios"}
     - { platform: mastodon, user_url: "https://infosec.exchange/@tsumarios", instance: infosec.exchange}
-    - { platform: github, user_url: "https://github.com/tsumarios"}
     - { platform: instagram, user_url: "https://instagram.com/tsumarios"}
     - { platform: linkedin, user_url: "https://linkedin.com/in/marioraciti"}
+    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=YTUJQ1wAAAAJ"}
+    - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/12880903/tsumarios" }
     - { platform: keybase, user_url: "https://keybase.io/marioraciti"}
 
 remote_theme: jekyll/minima
