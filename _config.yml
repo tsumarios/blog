@@ -33,12 +33,12 @@ minima:
     - { platform: github, user_url: "https://github.com/tsumarios"}
     - { platform: twitter, user_url: "https://twitter.com/tsumarios"}
     - { platform: mastodon, user_url: "https://infosec.exchange/@tsumarios", instance: infosec.exchange}
-    - { platform: reddit, user_url: "https://www.reddit.com/user/zr0_day"}
+    #- { platform: reddit, user_url: "https://www.reddit.com/user/zr0_day"}
     - { platform: instagram, user_url: "https://instagram.com/tsumarios"}
     - { platform: tiktok, user_url: "https://tiktok.com/@tsumarios"}
     - { platform: linkedin, user_url: "https://linkedin.com/in/marioraciti"}
     - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=YTUJQ1wAAAAJ"}
-    - { platform: research_gate, user_url: "https://www.researchgate.net/profile/Mario-Raciti-2"}
+    #- { platform: research_gate, user_url: "https://www.researchgate.net/profile/Mario-Raciti-2"}
     - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/12880903/tsumarios" }
     - { platform: keybase, user_url: "https://keybase.io/marioraciti"}
 
