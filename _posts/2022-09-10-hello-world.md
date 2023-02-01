@@ -14,16 +14,15 @@ Hello, World!
 **Welcome to my new blog!**
 
 <img src="https://avatars.githubusercontent.com/u/23482292" alt="Profile Pic" height="200">
-
-After few attempts on undestanding how to use Jekyll within Github Pages I managed to publish my blog (at least if you are seeing this, then it works!).
+After a few attempts on understanding how to use Jekyll within Github Pages I managed to publish my blog (at least if you are seeing this, then it works!).
 
 ## Why this blog?
 
 I decided to create a blog under my [main Website](https://tsumarios.github.io/) to:
 
 - avoid spreading posts all over different places;
-- gather my notes and resource in one place;
-- hopefully share my knowledge and research to the community.
+- gather my notes and resources in one place;
+- hopefully share my knowledge and research with the community.
 
 ### Stay Tuned
 

@@ -54,7 +54,7 @@ Let's start by visiting the homepage of the web server listening on port 80. By 
 
 Thus, we can guess that a candidate username for an SSH login could be `john`.
 
-Now let's give a look if the web server provides a `robots.txt` file:
+Now let's look if the web server provides a `robots.txt` file:
 
 ```
 GET http://$IP/robots.txt
@@ -74,11 +74,11 @@ manifesto.txt 2020-02-05 13:05 3.0K
 meme.jpg 2020-02-05 13:32 15K  
 ```
 
-The `dict.lst` file seems to contain a password list. Maybe this list could be used to bruteforce the SSH login.
+The `dict.lst` file seems to contain a password list. Maybe this list could be used to brute force the SSH login.
 
 ### Gobuster
 
-Before going ahed, let's enumerate directories using Gobuster with the [common.txt](https://github.com/digination/dirbuster-ng/blob/master/wordlists/common.txt) list:
+Before going ahead, let's enumerate directories using Gobuster with the [common.txt](https://github.com/digination/dirbuster-ng/blob/master/wordlists/common.txt) list:
 
 ```sh
 $ gobuster dir --url $IP -w common.txt -o logs/gobuster.log
@@ -126,7 +126,7 @@ DEK-Info: AES-128-CBC,82823EE792E75948EE2DE731AF1A0547
 
 ## SSH Dictionary Attack
 
-The SSH RSA private key is encrypted, so we have to crack the password. To this purpose, we can surely use the `dict.lst` list that we found previously. Note that this operation can be performed by using our old friend JohnTheRipper, but in this case I preferred to use the SSHAttacker Python script - source is available [here](https://github.com/forScie/SSHAttacker) - to think *out of the box*. Before starting the cracking process, I just added the `key_name='rsa_id'` parameter to the connect method in the script, in order to adapt it to our use case:
+The SSH RSA private key is encrypted, so we have to crack the password. To this purpose, we can surely use the `dict.lst` list that we found previously. Note that this operation can be performed by using our old friend JohnTheRipper, but in this case, I preferred to use the SSHAttacker Python script - the source is available [here](https://github.com/forScie/SSHAttacker) - to think *out of the box*. Before starting the cracking process, I just added the `key_name='rsa_id'` parameter to the connect method in the script, to adapt it to our use case:
 
 ```python
 line 36    ssh.connect(target, port=int(float(port)), username=user, password=password, key_filename='./rsa_id')
@@ -153,8 +153,8 @@ john@exploitable:~$ cat user.txt
 
 ## Privilege Escalation
 
-Now we have to elevate our privileges in order to get the root flag. We can just scp and run the [linpeas.sh](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS) script in the VM to look for something interesting.
-I firstly noticed that there is a weird link in a `/usr/bin/at` binary. But it was a joke just as `/usr/bin/pkexec`, another potential way to elevate our privileges. Both refers to CVEs which can be exploited by using a C executable, FYI.
+Now we have to elevate our privileges to get the root flag. We can just scp and run the [linpeas.sh](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS) script in the VM to look for something interesting.
+First, I noticed that there is a weird link in a `/usr/bin/at` binary. But it was a joke just as `/usr/bin/pkexec`, another potential way to elevate our privileges. Both refer to CVEs which can be exploited by using a C executable, FYI.
 
 At this point, I was looking for the right way to perform a privilege escalation. We can notice that the user john is in the lxd group:
 
@@ -163,7 +163,7 @@ john@exploitable:~$ id
 uid=1000(john) gid=1000(john) groups=1000(john),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),108(lxd)
 ```
 
-We can exploit this fact because LXD containers run with root privileges in most cases. Therefore, the exploit consts of mounting the file system in a container, so that we can have access to it. For more information, you can read [this article](https://www.hackingarticles.in/lxd-privilege-escalation/). In our case, we can use the alpine image:
+We can exploit this fact because LXD containers run with root privileges in most cases. Therefore, the exploit consists of mounting the file system in a container, so that we can have access to it. For more information, you can read [this article](https://www.hackingarticles.in/lxd-privilege-escalation/). In our case, we can use the alpine image:
 
 ```sh
 attacker@machine:~$ git clone https://github.com/saghul/lxd-alpine-builder.git
