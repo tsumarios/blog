@@ -1,3 +1,1 @@
-<g transform="matrix(0.01 0 0 0 8.11 7.76)"  >
-<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: evenodd; opacity: 1;"  transform=" translate(-1429.8, -1666.61)" d="M 2081 0 c 55 473 319 755 778 785 v 532 c -266 26 -499 -61 -770 -225 v 995 c 0 1264 -1378 1659 -1932 753 c -356 -583 -138 -1606 1004 -1647 v 561 c -87 14 -180 36 -265 65 c -254 86 -398 247 -358 531 c 77 544 1075 705 992 -358 V 1 h 551 z" stroke-linecap="round" />
-</g>
+<path d="M 2081 0 c 55 473 319 755 778 785 v 532 c -266 26 -499 -61 -770 -225 v 995 c 0 1264 -1378 1659 -1932 753 c -356 -583 -138 -1606 1004 -1647 v 561 c -87 14 -180 36 -265 65 c -254 86 -398 247 -358 531 c 77 544 1075 705 992 -358 V 1 h 551 z" stroke-linecap="round" />
