@@ -8,7 +8,7 @@ permalink: /about/
 
 <img src="https://avatars.githubusercontent.com/u/23482292" alt="Profile Pic" height="200">
 
-I'm Mario Raciti (aka tsumarios) and I'm a Security Researcher who after few attempts on undestanding how to use Jekyll within Github Pages managed to publish his own blog (or at least if you are seeing this, then it works!).
+I'm Mario Raciti (aka tsumarios) and I'm a Security Researcher who after a few attempts on understanding how to use Jekyll within Github Pages managed to publish his own blog (or at least if you are seeing this, then it works!).
 
 *If you want to know more about me, please consider visiting my [Website's About](https://tsumarios.github.io/#about) section.*
 
@@ -17,8 +17,8 @@ I'm Mario Raciti (aka tsumarios) and I'm a Security Researcher who after few att
 I decided to create a blog under my [main Website](https://tsumarios.github.io/) to:
 
 - avoid spreading posts all over different places;
-- gather my notes and resource in one place;
-- hopefully share my knowledge and research to the community.
+- gather my notes and resources in one place;
+- hopefully share my knowledge and research with the community.
 
 So this blog is supposed to provide useful **cybersecurity-related** articles, tutorials and resources.
 
