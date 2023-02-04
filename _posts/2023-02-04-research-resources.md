@@ -26,7 +26,7 @@ A collection of useful resources for (Cybersecurity) researchers.
 - [Overleaf](https://www.overleaf.com/)
 - [ResearchGate](https://researchgate.net/)
 - [Sci-Hub](https://sci-hub.ru/)
-- [Scopus Index](https://www.elsevier.com/__data/assets/excel_doc/0015/91122/extlistNovember2022.xlsx)
+- [Scopus Index](https://www.elsevier.com/solutions/scopus/how-scopus-works/content#Titles)
 - [CySec Conferences Deadlines](#cysec-conferences-deadlines)
 
 ## General Research Resources
@@ -97,9 +97,9 @@ Sci-Hub is a shadow library website that provides free access to millions of res
 
 ### Scopus Index
 
-*URL*: <https://www.elsevier.com/__data/assets/excel_doc/0015/91122/extlistNovember2022.xlsx>
+*URL*: <https://www.elsevier.com/solutions/scopus/how-scopus-works/content#Titles>
 
-Excel file that contains a list of all Scopus-indexed journals and conferences as of November 2022.
+Excel file that contains a list of all Scopus-indexed journals and conferences.
 
 ## CySec Conferences Deadlines
 
