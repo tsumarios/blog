@@ -67,7 +67,7 @@ Google Scholar is a freely accessible web search engine that indexes the full te
 
 *URL*: <https://www.grammarly.com/>
 
-Grammarly is an American cloud-based typing assistant. It reviews spelling, grammar, punctuation, clarity, engagement, and delivery mistakes in English texts, detects plagiarism, and suggests replacements for the identified errors. It also allows users to customise their style, tone, and context-specific language.
+Grammarly is an American cloud-based typing assistant. It reviews spelling, grammar, punctuation, clarity, engagement, and delivery mistakes in English texts, detects plagiarism and suggests replacements for the identified errors. It also allows users to customise their style, tone, and context-specific language.
 
 *A valid open-source alternative is Language Tool:* <https://languagetool.org/>.
 
@@ -81,7 +81,7 @@ Mendeley is a reference manager software founded in 2007 by PhD students Paul Fo
 
 *URL:* <https://www.overleaf.com/>
 
-Overleaf is a collaborative cloud-based LaTeX editor used for writing, editing and publishing scientific documents. It partners with a wide range of scientific publishers to provide official journal LaTeX templates, and direct submission links.
+Overleaf is a collaborative cloud-based LaTeX editor used for writing, editing and publishing scientific documents. It partners with a wide range of scientific publishers to provide official journal LaTeX templates and direct submission links.
 
 ### ResearchGate
 
