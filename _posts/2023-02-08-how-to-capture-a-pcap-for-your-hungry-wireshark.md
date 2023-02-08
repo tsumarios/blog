@@ -126,5 +126,5 @@ Ipconfig /all
 - <https://www.tcpdump.org/>
 - <https://opensource.com/article/18/10/introduction-tcpdump>
 - <https://developer.apple.com/documentation/network/recording_a_packet_trace>
-<https://learn.microsoft.com/en-us/windows-server/networking/technologies/netsh/netsh-contexts>
+- <https://learn.microsoft.com/en-us/windows-server/networking/technologies/netsh/netsh-contexts>
 - <https://bakerstreetforensics.com/2022/01/07/quickpcap-capturing-a-pcap-with-powershell/>
