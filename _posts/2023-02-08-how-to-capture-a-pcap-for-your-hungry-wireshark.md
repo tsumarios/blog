@@ -1,20 +1,20 @@
 ---
 layout: post
-title:  "How to Capture PCAPs"
+title:  "How to Capture a PCAP for your Hungry Wireshark"
 date:   2023-02-08
 author:
   - "Mario Raciti"
 tags: dfir
 ---
 
-TODO:
+Some notes on how to capture network packets in a .pcap format, so you can feed your hungry Wireshark.
 <!-- readmore -->
 
-![cover]()
+![cover](https://images.unsplash.com/photo-1612708307394-2bcbf8d1fc8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80)
 
-** ―
+*Packets don't lie.* ― Laura Chappell
 
-## Table of Contents
+## Quick Access
 
 - [Linux](#linux)
 - [Mac](#mac)
@@ -22,7 +22,7 @@ TODO:
 
 ## Linux
 
-The best tool to capture network traffic is **tcpdump**. This is included with several Linux distributions, so chances are, you already have it installed.
+**tcpdump** is one of the best tools to capture network traffic. It is included with several Linux distributions, so chances are you do not need to bother with any installations.
 
 To capture network packets in *any* interface and store the results in a `trace.pcap` file, just open your favourite Terminal and type as follows:
 
@@ -113,10 +113,18 @@ To execute QuickPcap.ps1 just open a PowerShell and type as follows:
 File_Location\QuickPcap.ps1
 ```
 
+Note that this script considers the active interface by default (stored in `$env:HostIP`). If you want to use a specific interface, you need to change the `$env:HostIP` variable with the IPv4 address of such interface. To list all available interfaces, you can execute the following command:
+
+```ps1
+Ipconfig /all
+```
+
 ---
 
 ### References
 
+- <https://www.tcpdump.org/>
 - <https://opensource.com/article/18/10/introduction-tcpdump>
 - <https://developer.apple.com/documentation/network/recording_a_packet_trace>
+<https://learn.microsoft.com/en-us/windows-server/networking/technologies/netsh/netsh-contexts>
 - <https://bakerstreetforensics.com/2022/01/07/quickpcap-capturing-a-pcap-with-powershell/>
