@@ -2,6 +2,7 @@
 layout: post
 title:  "Research Resources"
 date:   2023-02-04
+modified_date: 2023-03-03
 author:
   - "Mario Raciti"
 tags: resources
@@ -27,6 +28,7 @@ A collection of useful resources for (Cybersecurity) researchers.
 - [ResearchGate](https://researchgate.net/)
 - [Sci-Hub](https://sci-hub.ru/)
 - [Scopus Index](https://www.elsevier.com/solutions/scopus/how-scopus-works/content#Titles)
+- [Top CySec Conferences Ranking](http://jianying.space/conference-ranking.html)
 - [CySec Conferences Deadlines](#cysec-conferences-deadlines)
 
 ## General Research Resources
@@ -101,7 +103,15 @@ Sci-Hub is a shadow library website that provides free access to millions of res
 
 Excel file that contains a list of all Scopus-indexed journals and conferences.
 
-## CySec Conferences Deadlines
+## CySec Research
+
+### Top CySec Conferences Ranking
+
+*URL*: <http://jianying.space/conference-ranking.html>
+
+A CIF-based ranking of top cybersecurity conferences, for informal reference only. The ranking is adjusted once a year.
+
+### CySec Conferences Deadlines
 
 The following websites provide deadline details of relevant Cybersecurity conferences:
 
