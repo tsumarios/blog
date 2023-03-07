@@ -2,7 +2,7 @@
 layout: post
 title:  "Research Resources"
 date:   2023-02-04
-modified_date: 2023-03-03
+modified_date: 2023-03-07
 author:
   - "Mario Raciti"
 tags: resources
@@ -28,6 +28,7 @@ A collection of useful resources for (Cybersecurity) researchers.
 - [ResearchGate](https://researchgate.net/)
 - [Sci-Hub](https://sci-hub.ru/)
 - [Scopus Index](https://www.elsevier.com/solutions/scopus/how-scopus-works/content#Titles)
+- [Zoterolib](https://zbib.org/)
 - [Top CySec Conferences Ranking](http://jianying.space/conference-ranking.html)
 - [CySec Conferences Deadlines](#cysec-conferences-deadlines)
 
@@ -102,6 +103,18 @@ Sci-Hub is a shadow library website that provides free access to millions of res
 *URL*: <https://www.elsevier.com/solutions/scopus/how-scopus-works/content#Titles>
 
 Excel file that contains a list of all Scopus-indexed journals and conferences.
+
+### Zotero
+
+*URL*: <https://www.zotero.org/>
+
+Zotero is a free and open-source reference management software to manage bibliographic data and related research materials.
+
+#### Zoterobib
+
+*URL*: <https://zbib.org/>
+
+ZoteroBib helps you build a bibliography instantly from any computer or device, without creating an account or installing any software.
 
 ## CySec Research
 
