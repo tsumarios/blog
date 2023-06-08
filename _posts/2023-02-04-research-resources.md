@@ -2,7 +2,7 @@
 layout: post
 title:  "Research Resources"
 date:   2023-02-04
-modified_date: 2023-03-07
+modified_date: 2023-06-08
 author:
   - "Mario Raciti"
 tags: resources
@@ -30,7 +30,7 @@ A collection of useful resources for (Cybersecurity) researchers.
 - [Scopus Index](https://www.elsevier.com/solutions/scopus/how-scopus-works/content#Titles)
 - [Zoterolib](https://zbib.org/)
 - [Top CySec Conferences Ranking](http://jianying.space/conference-ranking.html)
-- [CySec Conferences Deadlines](#cysec-conferences-deadlines)
+- [CySec Conferences Deadlines and Events](#cysec-conferences-deadlines-and-events)
 
 ## General Research Resources
 
@@ -124,10 +124,14 @@ ZoteroBib helps you build a bibliography instantly from any computer or device, 
 
 A CIF-based ranking of top cybersecurity conferences, for informal reference only. The ranking is adjusted once a year.
 
-### CySec Conferences Deadlines
+### CySec Conferences Deadlines and Events
 
 The following websites provide deadline details of relevant Cybersecurity conferences:
 
 - **Security and Privacy Conference Deadlines**: <https://sec-deadlines.github.io/>
 - **System and Security Conference Deadlines**: <https://xiaoguang.wang/syssec-deadlines/>
 - **SSE Conference Deadlines**: <https://deadlines.sse.in.tum.de/>
+
+The following websites provide details of relevant Cybersecurity events:
+
+- **CyberSec4Europe Events**: <https://cybersec4europe.eu/events/>
