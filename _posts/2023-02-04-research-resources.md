@@ -2,7 +2,7 @@
 layout: post
 title:  "Research Resources"
 date:   2023-02-04
-modified_date: 2023-06-08
+modified_date: 2023-06-15
 author:
   - "Mario Raciti"
 tags: resources
@@ -27,6 +27,7 @@ A collection of useful resources for (Cybersecurity) researchers.
 - [Overleaf](https://www.overleaf.com/)
 - [ResearchGate](https://researchgate.net/)
 - [Sci-Hub](https://sci-hub.ru/)
+- [Scimago](https://www.scimagojr.com/)
 - [Scopus Index](https://www.elsevier.com/solutions/scopus/how-scopus-works/content#Titles)
 - [Zoterolib](https://zbib.org/)
 - [Top CySec Conferences Ranking](http://jianying.space/conference-ranking.html)
@@ -97,6 +98,12 @@ ResearchGate is a European commercial social networking site for scientists and 
 *URL*: <https://sci-hub.ru/>
 
 Sci-Hub is a shadow library website that provides free access to millions of research papers and books, without regard to copyright, by bypassing publishers' paywalls in various ways. Sci-Hub was founded in Kazakhstan by Alexandra Elbakyan in 2011, in response to the high cost of research papers behind paywalls.
+
+### Scimago
+
+*URL*: <https://www.scimagojr.com/>
+
+The SCImago Journal & Country Rank is a publicly available portal that includes the journals and country scientific indicators developed from the information contained in the Scopus database.
 
 ### Scopus Index
 
