@@ -2,7 +2,7 @@
 layout: post
 title:  "Research Resources"
 date:   2023-02-04
-modified_date: 2023-06-15
+modified_date: 2023-07-07
 author:
   - "Mario Raciti"
 tags: resources
@@ -28,6 +28,7 @@ A collection of useful resources for (Cybersecurity) researchers.
 - [ResearchGate](https://researchgate.net/)
 - [Sci-Hub](https://sci-hub.ru/)
 - [Scimago](https://www.scimagojr.com/)
+- [SciSpace Copilot](https://scispace.com/)
 - [Scopus Index](https://www.elsevier.com/solutions/scopus/how-scopus-works/content#Titles)
 - [Zoterolib](https://zbib.org/)
 - [Top CySec Conferences Ranking](http://jianying.space/conference-ranking.html)
@@ -104,6 +105,12 @@ Sci-Hub is a shadow library website that provides free access to millions of res
 *URL*: <https://www.scimagojr.com/>
 
 The SCImago Journal & Country Rank is a publicly available portal that includes the journals and country scientific indicators developed from the information contained in the Scopus database.
+
+### SciSpace Copilot
+
+*URL*: <https://scispace.com/>
+
+SciSpace is an AI-powered tool to help you understand research papers better. It can explain and elaborate most academic texts in simple words.
 
 ### Scopus Index
 
