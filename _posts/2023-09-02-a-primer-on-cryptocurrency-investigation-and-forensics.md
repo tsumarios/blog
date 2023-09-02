@@ -76,7 +76,7 @@ Within the above introduction, we may now provide the most common methods involv
 
 #### Crypto Mixers
 
-![Crypto Mixer Scheme](https://raw.githubusercontent.com/tsumarios/blog/blob/main/assets/img/schema/cif-mixer.png)
+![Crypto Mixer Scheme](https://raw.githubusercontent.com/tsumarios/blog/main/assets/img/schema/cif-mixer.png)
 
 Crypto mixing services serve as a veil, allowing users to deposit assets into a pool and withdraw a different mixture of coins than what they initially deposited. This process confounds the tracing of fund origins.
 Crypto mixers, also known as tumblers or blenders, serve as a smokescreen for cryptocurrency transactions. These services allow users to deposit their assets into a communal pool, where the funds become intermingled with those of others. The user then withdraws a different combination of coins from what they initially deposited, making it exceptionally challenging to trace the original source.
@@ -85,7 +85,7 @@ While the legality of mixers is contentious, they are not explicitly illegal in 
 
 #### Layering Transactions
 
-![Layering Scheme](https://raw.githubusercontent.com/tsumarios/blog/blob/main/assets/img/schema/cif-layering.png)
+![Layering Scheme](https://raw.githubusercontent.com/tsumarios/blog/main/assets/img/schema/cif-layering.png)
 
 Layering transactions involve sending numerous transactions through multiple intermediary wallet addresses. These transactions eventually consolidate into a single transfer. This entanglement of addresses can slow down the identification process, granting criminals time to offload funds before their addresses become blacklisted.
 Layering transactions stands as a deliberate attempt to convolute the transaction trail. Cybercriminals orchestrate a series of transactions across multiple intermediary wallet addresses. This intricate web of transfers, often spanning numerous blockchain blocks, serves to blur the connection between the source and the destination.
@@ -93,7 +93,7 @@ Criminals aim to create confusion and hinder investigators from tracing back to 
 
 #### Peer-to-Peer Transactions
 
-![Peer-to-Peer Schema](https://raw.githubusercontent.com/tsumarios/blog/blob/main/assets/img/schema/cif-p2p.png)
+![Peer-to-Peer Schema](https://raw.githubusercontent.com/tsumarios/blog/main/assets/img/schema/cif-p2p.png)
 
 Criminals often cash out stolen crypto by selling the assets for cash through peer-to-peer arrangements. This bypasses the rigorous [know-your-customer (KYC)](<https://www.investopedia.com/terms/k/knowyourclient.asp>) and anti-money laundering checks of centralised exchanges, enabling them to transfer tainted funds to unsuspecting individuals.
 Peer-to-peer transactions serve as a method of discreetly cashing out stolen crypto assets. Criminals opt for direct sales to individuals, bypassing the stringent regulations and oversight prevalent in centralised exchanges. By evading the KYC procedures, which require verifying user identities, cybercriminals can transfer tainted funds without arousing suspicion.
@@ -101,7 +101,7 @@ This strategy typically involves individuals unwittingly receiving illicit funds
 
 #### Peel Chain
 
-![Peel Chain Schema](https://raw.githubusercontent.com/tsumarios/blog/blob/main/assets/img/schema/cif-peelchain.png)
+![Peel Chain Schema](https://raw.githubusercontent.com/tsumarios/blog/main/assets/img/schema/cif-peelchain.png)
 
 A peel chain is a sequence of transactions where a portion of funds is peeled away with each transfer. Criminals initiate this process to complicate the identification of transactions and to avoid arousing suspicion on centralised exchanges.
 The concept of a peel chain adds yet another layer of complexity to the world of cryptocurrency laundering. In this technique, a criminal initiates a sequence of transactions, with each transfer peeling away a fraction of the funds. This gradual process fragments the original sum into smaller portions, reducing the likelihood of detection during subsequent transfers.
@@ -190,19 +190,19 @@ Notably, after the first output transaction from the wallet address, we find a t
 
 The images below depicts the graph of our current analysis, respectively, from Maltego and OXT.
 
-![Maltego Graph 1](https://raw.githubusercontent.com/tsumarios/blog/blob/main/assets/img/posts/cif-maltego-1.png)
+![Maltego Graph 1](https://raw.githubusercontent.com/tsumarios/blog/main/assets/img/posts/cif-maltego-1.png)
 
-![OXT Graph 1](https://raw.githubusercontent.com/tsumarios/blog/blob/main/assets/img/posts/cif-oxt-1.png)
+![OXT Graph 1](https://raw.githubusercontent.com/tsumarios/blog/main/assets/img/posts/cif-oxt-1.png)
 
 At this point, by further following the output transactions, we unfortunately reach soon a blind alley: the ransom has been immediately moved through a mixing/exchange service named [ChangeNow](https://changenow.io/), which in turn has multiple transactions with Binance.
 
-![Maltego Graph 2](https://raw.githubusercontent.com/tsumarios/blog/blob/main/assets/img/posts/cif-maltego-2.png)
+![Maltego Graph 2](https://raw.githubusercontent.com/tsumarios/blog/main/assets/img/posts/cif-maltego-2.png)
 
-![OXT Graph 2](https://raw.githubusercontent.com/tsumarios/blog/blob/main/assets/img/posts/cif-oxt-2.png)
+![OXT Graph 2](https://raw.githubusercontent.com/tsumarios/blog/main/assets/img/posts/cif-oxt-2.png)
 
 For the sake of demonstration, the image below – note that it is not a constellation! – gives an idea of the exponential number of transactions and nodes that makes it impossible to infer the path taken by the initial amount of money. Sadly, we can already conclude our (unlucky) analysis.
 
-![OXT Graph 3](https://raw.githubusercontent.com/tsumarios/blog/blob/main/assets/img/posts/cif-oxt-3.png)
+![OXT Graph 3](https://raw.githubusercontent.com/tsumarios/blog/main/assets/img/posts/cif-oxt-3.png)
 
 The choice of this specific attack is not fortuitous, as it represents a clear example of how it is difficult to trace cryptocurrencies, especially when we are dealing with organised cybercrime. Nevertheless, by glancing at the latest graph, we can see most of the techniques discussed above (i.e., peel chain, mixers, etc.) in action.
 
