@@ -217,7 +217,7 @@ Instances of criminals liquidating substantial amounts of Bitcoin following rans
 ### References
 
 - <https://en.wikipedia.org/wiki/Money_laundering>
-- <https://www.investopedia.com/terms/m/moneylaundering.asp>7
+- <https://www.investopedia.com/terms/m/moneylaundering.asp>
 - <https://alessa.com/blog/cryptocurrency-money-laundering-aml/>
 - <https://www.fraudinvestigation.net/cryptocurrency/>
 - <https://www.chainalysis.com/blog/common-blockchain-analysis-mistakes-cryptocurrency-investigations/>
