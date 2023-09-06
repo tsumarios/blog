@@ -109,7 +109,7 @@ The rationale behind the peel chain is twofold: It disguises the true value bein
 
 ## Tracing Illicit Crypto Transactions
 
-Complementing the study of investigating criminal activities on the blockchain (aka Blockchain Forensics), the intelligence operations behind Crypto Investigation and Forensics unveil the broader landscape of cryptocurrency transactions. This field delves into the realm of patterns, behaviours, and trends exhibited by digital assets as they traverse the blockchain. Furthermore, it requires a comprehensive approach that combines blockchain forensics with off-chain investigation, e.g., analysis of scheme's timeline, use of forensic analysis to identify account owners and related addresses, legal avenues such as subpoenas and warrants necessary to identify scheme operators fully. Additionally, due diligence may include background checks on scheme principals, examining criminal history, financial records, and past involvement in frauds. For international cases, coordination with overseas sources may be required. The most common areas of analysis and fact-finding are:
+Complementing the study of investigating criminal activities on the blockchain (aka Blockchain Forensics), the intelligence operations behind Crypto Investigation and Forensics unveil the broader landscape of cryptocurrency transactions. This field delves into the realm of patterns, behaviours, and trends exhibited by digital assets as they traverse the blockchain. Furthermore, it requires a comprehensive approach that combines blockchain forensics with off-chain investigation, e.g., analysis of the scheme's timeline, use of forensic analysis to identify account owners and related addresses, legal avenues such as subpoenas and warrants necessary to identify scheme operators fully. Additionally, due diligence may include background checks on scheme principals, examining criminal history, financial records, and past involvement in fraud. For international cases, coordination with overseas sources may be required. The most common areas of analysis and fact-finding are:
 
 - *Attribution Data*: blockchain intelligence tools gather and analyse ownership attribution information, which helps de-anonymise blockchain addresses. This information can identify associations with criminal groups, fraudulent schemes, and transactions with relevant entities like exchanges and fiat off-ramps used to convert criminal proceeds.
 - *Transaction Mapping*: transactional data is visually represented in maps and flowcharts, revealing interactions with exchanges and other entities. This mapping aids in recognising patterns commonly used for money laundering, such as layering and peel chains. Expert investigators employ automated tools for efficient evidence collection.
@@ -120,7 +120,7 @@ Complementing the study of investigating criminal activities on the blockchain (
 - *Risk Profiling*: automated risk-scoring algorithms trace target address activity and identify associations with known entities, including exchanges, mixers, and sanctioned parties.
 - *IP Address*: blockchain surveillance systems collect metadata, including IP addresses associated with transactions, providing geographical location information.
 
-In the pursuit of tracking down the owners of specific crypto wallet addresses, two main forensic techniques have emerged: the identification of common spending patterns and the analysis of address reuse.
+In the pursuit of tracking down the owners of specific crypto wallet addresses, two main forensic techniques have emerged: the identification of common spending patterns and the analysis of address reuse. These should be taken into account when employing blockchain analysis tools, as we shall detail below.
 
 ### Identification of Common Spending Patterns
 
@@ -136,7 +136,7 @@ Another approach involves scanning the blockchain for reused addresses. When a p
 
 The arena of blockchain analytics tools, especially for *taint analysis*, emerges as a pivotal ally for investigators seeking to unravel illicit crypto transactions. In particular, taint analysis is a way of tracing crypto transactions to see where they came from and where they have been. This can be useful in tracing when someone is trying to launder money or hide the source of their funds. Sophisticated tools harness the power of data visualisation, pattern recognition, and AI-driven analysis. They transform the raw data present on blockchains into intelligible insights that aid investigators in identifying patterns, tracing fund flows, and linking wallet addresses to entities. Blockchain analytics tools also facilitate the identification of services that criminals may employ for laundering purposes. In fact, by categorising addresses associated with mixers, fraudulent exchanges, or other laundering mechanisms, these tools enhance investigators' ability to differentiate between legitimate and illicit transactions.
 
-Below is a list of both free open-source and commercial tools for blockchain analysis:
+Below is a list of both free open-source and commercial tools for blockchain analysis with a brief description.
 
 #### Wallet Explorer
 
