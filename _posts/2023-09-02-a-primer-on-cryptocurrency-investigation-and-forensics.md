@@ -201,7 +201,7 @@ At this point, by further following the output transactions, we unfortunately re
 
 ![OXT Graph 2](https://raw.githubusercontent.com/tsumarios/blog/main/assets/img/posts/cif-oxt-2.png)
 
-For the sake of demonstration, the image below – note that it is not a constellation! – gives an idea of the exponential number of transactions and nodes that makes it impossible to infer the path taken by the initial amount of money. Sadly, we can already conclude our (unlucky) analysis.
+For the sake of demonstration, the image below – note that it is not a constellation! – gives an idea of the exponential number of transaction nodes (each node is a transaction in OXT) that makes it impossible to infer the path taken by the initial amount of money. Sadly, we can already conclude our (unlucky) analysis.
 
 ![OXT Graph 3](https://raw.githubusercontent.com/tsumarios/blog/main/assets/img/posts/cif-oxt-3.png)
 
