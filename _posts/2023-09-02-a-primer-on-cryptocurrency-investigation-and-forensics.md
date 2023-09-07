@@ -2,6 +2,7 @@
 layout: post
 title:  "A Primer on Cryptocurrency Investigation and Forensics"
 date:   2023-09-02
+modified_date: 2023-09-07
 author:
   - "Mario Raciti"
 tags: dfir
@@ -29,7 +30,7 @@ Picture this: a serene lakeside town, nestled in the heart of the Ozarks, where 
 
 ![Ozark Image – Source: Unsplash](https://images.unsplash.com/photo-1587405671157-9636e0fe887e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80)
 
-Just as the characters in "Ozark" navigate a world of shifting alliances and hidden motives, in this article we will explore the virtual realm where criminals seek refuge and investigators strive to bring them to justice. So, let's grab our metaphorical detective hat and embark on a journey into the fascinating world of Cryptocurrency Investigation and Forensics. In particular, this article includes the challenges posed by money laundering techniques and the role of blockchain intelligence and taint analysis in unveiling concealed financial activities, with a demo on a real-world RaaS case.
+Just as the characters in "Ozark" navigate a world of shifting alliances and hidden motives, in this article we will explore the virtual realm where criminals seek refuge and investigators strive to bring them to justice. So, let's grab our metaphorical detective hat and embark on a journey into the fascinating world of Cryptocurrency Investigation and Forensics. In particular, this article includes the challenges posed by money laundering techniques and the role of blockchain intelligence and taint analysis in unveiling concealed financial activities, with a demo on a real-world RaaS case. Arguably, this article refers to Bitcoin as a notable cryptocurrency sample, yet most of the concepts remain valid for other cryptocurrencies.
 
 ## The Intricate Dance of Money Laundering
 
@@ -121,23 +122,28 @@ Complementing the study of investigating criminal activities on the blockchain (
 - *Risk Profiling*: automated risk-scoring algorithms trace target address activity and identify associations with known entities, including exchanges, mixers, and sanctioned parties.
 - *IP Address*: blockchain surveillance systems collect metadata, including IP addresses associated with transactions, providing geographical location information.
 
-In the pursuit of tracking down the owners of specific crypto wallet addresses, two main forensic techniques have emerged: the identification of common spending patterns and the analysis of address reuse. These should be taken into account when employing blockchain analysis tools, as we shall detail below.
-
-### Identification of Common Spending Patterns
+In the pursuit of tracking down the owners of specific crypto wallet addresses, two main forensic techniques have emerged: the **identification of common spending patterns** and the **analysis of address reuse**.
 
 By using multiple input wallet addresses to send a single transaction to a recipient address, the technique of common spending is employed. This method assumes that the multiple input wallet addresses belong to the same individual, as people are unlikely to lend their private keys or passwords to others.
 Identification of common spending patterns serves as a powerful technique in the arsenal of blockchain investigators. By analysing multiple-input transactions, where different crypto wallet addresses contribute to a single transaction output, investigators can infer connections between these addresses. This approach hinges on the premise that individuals are unlikely to share private keys or passwords, signifying that multiple addresses with shared inputs likely belong to the same user.
 The intricate dance of transactions between these addresses paints a picture of how cybercriminals disperse funds. The ability to distinguish these patterns offers valuable insights into the structure of criminal networks and the flow of ill-gotten gains. To streamline this process, cutting-edge technologies leverage clustering algorithms that automatically identify common spending patterns, enabling investigators to focus their efforts on untangling the threads that link these addresses.
 
-### Analysis of Address Reuse
-
 Another approach involves scanning the blockchain for reused addresses. When a particular wallet address is used more than once in a sequence of transactions, it becomes a reference point for investigators. This method aids in honing in on a perpetrator's wallet address. Another strategy that comes into play is address reuse analysis. In the labyrinth of cryptocurrency transactions, some wallet addresses emerge as repeat players in the sequence of transfers. This phenomenon often points to a significant element – an address repeatedly used as the output for various transactions. By identifying these reused addresses, investigators gain a foothold in their pursuit of the perpetrator's wallet address. This technique relies on the assumption that a reused address represents a control point in the web of transactions. It allows investigators to focus their attention on this pivotal address, tracing the intricate paths of incoming and outgoing transactions. These reference points help filter out extraneous addresses tied to services, exchanges, or other intermediaries, sharpening the investigative focus.
 
-### Blockchain Analysis Tools
+These techniques should be taken into account when employing blockchain analysis heuristics and tools, as we shall detail below.
 
-The arena of blockchain analytics tools, especially for *taint analysis*, emerges as a pivotal ally for investigators seeking to unravel illicit crypto transactions. In particular, taint analysis is a way of tracing crypto transactions to see where they came from and where they have been. This can be useful in tracing when someone is trying to launder money or hide the source of their funds. Sophisticated tools harness the power of data visualisation, pattern recognition, and AI-driven analysis. They transform the raw data present on blockchains into intelligible insights that aid investigators in identifying patterns, tracing fund flows, and linking wallet addresses to entities. Blockchain analytics tools also facilitate the identification of services that criminals may employ for laundering purposes. In fact, by categorising addresses associated with mixers, fraudulent exchanges, or other laundering mechanisms, these tools enhance investigators' ability to differentiate between legitimate and illicit transactions.
+### (Block)Chain Analysis
 
-Below is a list of both free open-source and commercial tools for blockchain analysis with a brief description.
+Chain analysis uses heuristics to analyse the blockchain and trace the ownership of cryptocurrency across transactions.
+The arena of blockchain analytics tools, especially for *taint analysis*, emerges as a pivotal ally for investigators seeking to unravel illicit crypto transactions. In detail, taint analysis is a way of tracing crypto transactions to see where they came from and where they have been. This can be useful in tracing when someone is trying to launder money or hide the source of their funds. There are three main heuristics employed for blockchain analysis:
+
+- *Largest Output Amount* - the output with the largest amount of funds is likely to be the [change address](https://support.blockchain.com/hc/en-us/articles/4417082392724-What-are-change-addresses-and-how-do-they-work-#:~:text=Change%20addresses%20are%20an%20aspect,of%20the%20output%20being%20spent.);
+- *Round Number Payment* - the output with a round number amount of funds is likely to be the payment.;
+- *Script Type* - the output with the same [script (address) type](https://river.com/learn/terms/s/script-bitcoin/) (e.g., P2SH, P2PKH, etc.) as the input is likely to be the change address.
+
+Sophisticated tools harness the power of data visualisation, pattern recognition, and AI-driven analysis to support blockchain analysis and the various heuristics. Such tools transform the raw data present on blockchains into intelligible insights that aid investigators in identifying patterns, tracing fund flows, and linking wallet addresses to entities. Blockchain analytics tools also facilitate the identification of services that criminals may employ for laundering purposes. In fact, by categorising addresses associated with mixers, fraudulent exchanges, or other laundering mechanisms, these tools enhance investigators' ability to differentiate between legitimate and illicit transactions.
+
+Below is a list of both free open-source and commercial tools for blockchain analysis, with a brief description.
 
 #### Wallet Explorer
 
