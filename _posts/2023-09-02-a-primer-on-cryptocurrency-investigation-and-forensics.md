@@ -20,7 +20,7 @@ An introductory exploration of Cryptocurrency Investigation and Forensics, inclu
 - [The Intricate Dance of Money Laundering](#the-intricate-dance-of-money-laundering)
 - [Cryptocurrency Strategies to Conceal Illicit Funds](#cryptocurrency-strategies-to-conceal-illicit-funds)
 - [Tracing Illicit Crypto Transactions](#tracing-illicit-crypto-transactions)
-- [Lost in the Shadows – Demo on a Real-World RaaS Attack](#lost-in-the-shadows–-demo-on-a-real-world-raas-attack)
+- [Lost in the Shadows – Demo on a Real-World RaaS Attack](#lost-in-the-shadows--demo-on-a-real-world-raas-attack)
 - [Conclusions](#conclusions)
 
 ## Introduction
