@@ -8,19 +8,19 @@ permalink: /about/
 
 <img src="https://avatars.githubusercontent.com/u/23482292" alt="Profile Pic" height="200">
 
-I'm Mario Raciti (aka tsumarios) and I'm a Security Researcher who after a few attempts on understanding how to use Jekyll within Github Pages managed to publish his own blog (or at least if you are seeing this, then it works!).
+I'm Mario Raciti (aka tsumarios) and I'm a Security Researcher who after a few attempts on understanding how to use Jekyll within Github Pages managed to publish his own blog (or at least if you are reading this, it means it works!).
 
 *If you want to know more about me, please consider visiting my [Website's About](https://tsumarios.github.io/#about) section.*
 
 ## Why this blog?
 
-I decided to create a blog under my [main Website](https://tsumarios.github.io/) to:
+The decision to create a blog under my [main Website](https://tsumarios.github.io/) stems from a few key reasons:
 
-- avoid spreading posts all over different places;
-- gather my notes and resources in one place;
-- hopefully share my knowledge and research with the community.
+- *Centralisation* - to avoid scattering my posts across different platforms, I've brought them all together here;
+- *Knowledge Hub* - this blog serves as a repository for my notes and resources, making them easily accessible;
+- *Community Sharing* - the goal is to share my knowledge and research with the community.
 
-So this blog is supposed to provide useful **cybersecurity-related** articles, tutorials and resources.
+As a result, this blog will primarily feature **cybersecurity-related** articles, tutorials and resources.
 
 ---
 
@@ -28,7 +28,7 @@ So this blog is supposed to provide useful **cybersecurity-related** articles, t
 
 Consider subscribing to the [RSS feed](https://tsumarios.github.io/blog/feed.xml) if you don’t want to miss anything.
 
-Also, feel free to follow me also on my socials - *don't be shy, you can find them right at the bottom of this page!* - to stay updated on new posts.
+Also, feel free to follow me on my socials - *don't be shy, you can find them right at the bottom of this page!* - to stay updated on new posts.
 
 <div>
     <h4><i>If you want to support me, I would be grateful ❤️</i></h4>
