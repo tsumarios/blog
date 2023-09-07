@@ -231,4 +231,5 @@ Instances of criminals liquidating substantial amounts of Bitcoin following rans
 - <https://www.chainalysis.com/blog/common-blockchain-analysis-mistakes-cryptocurrency-investigations/>
 - <https://www.coindesk.com/learn/how-big-brother-tracks-criminal-crypto-transactions/>
 - <https://originstamp.com/blog/how-to-trace-bitcoin-transactions/>
+- <https://m.youtube.com/playlist?list=PLIBmWVGQhizLrPjpFMN5bQdbOZRxCQXUg>
 - <https://kpmg.com/au/en/home/insights/2021/08/blockchain-analytics-tools-follow-money-in-ransomware-cases.html>
