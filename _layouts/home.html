@@ -33,7 +33,7 @@ layout: base
                 </a>
             </h3>
             {%- if site.show_excerpts -%}
-            <p style="text-align: justify;">{{ post.excerpt }}</p>
+            {{ post.excerpt }}
             {%- endif -%}
         </li>
         {%- endfor -%}
