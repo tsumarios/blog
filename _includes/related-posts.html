@@ -15,7 +15,7 @@
   {%- endfor -%}
   <ul>
     {%- if sameTagCount >= minCommonTags -%}
-      <li>
+      <li style="text-align: justify;">
         <span><big><a href="{{ post.url | relative_url }}">{{ post.title }}</a></big></span>
         <br>
         <small>{{ post.date | date: date_format }} • {% include read-time.html content=post.content %}</small>
