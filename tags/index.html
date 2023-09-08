@@ -23,7 +23,7 @@ permalink: /tags/
             <span><big><a href="{{ post.url | relative_url }}">{{ post.title }}</a></big></span>
             <br>
             <small>{{ post.date | date: date_format }} • {% include read-time.html content=post.content %}</small>
-            <p style="text-align: justify;">{{ post.excerpt }}</p>
+            <p>{{ post.excerpt }}</p>
         </li>
         {% endfor %}
     </ul>
