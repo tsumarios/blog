@@ -14,21 +14,24 @@ Hello, World!
 **Welcome to my new blog!**
 
 <img src="https://avatars.githubusercontent.com/u/23482292" alt="Profile Pic" height="200">
-After a few attempts on understanding how to use Jekyll within Github Pages I managed to publish my blog (at least if you are seeing this, then it works!).
+
+After a few attempts on understanding how to use Jekyll within Github Pages, I managed to publish my blog (or at least if you are reading this, it means it works!).
 
 ## Why this blog?
 
-I decided to create a blog under my [main Website](https://tsumarios.github.io/) to:
+The decision to create a blog under my [main Website](https://tsumarios.github.io/) stems from a few key reasons:
 
-- avoid spreading posts all over different places;
-- gather my notes and resources in one place;
-- hopefully share my knowledge and research with the community.
+- *Centralisation* - to avoid scattering my posts across different platforms, I've brought them all together here;
+- *Knowledge Hub* - this blog serves as a repository for my notes and resources, making them easily accessible;
+- *Community Sharing* - the goal is to share my knowledge and research with the community.
+
+As a result, this blog will primarily feature **cybersecurity-related** articles, tutorials and resources.
 
 ### Stay Tuned
 
 The bootstrap phase includes the relocation of some articles of mine from other platforms into this blog. After that, more posts will be added with brand-new content, so consider subscribing to the [RSS feed](https://tsumarios.github.io/blog/feed.xml) if you don't want to miss anything.
 
-Feel free to follow me also on my socials to stay updated on new posts:
+Also, feel free to follow me on my socials to stay updated on new posts:
 
 - Mastodon: [tsumarios](https://infosec.exchange/@tsumarios)
 - Twitter: [tsumarios](https://twitter.com/tsumarios)
