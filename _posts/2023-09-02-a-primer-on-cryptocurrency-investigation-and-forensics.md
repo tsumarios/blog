@@ -186,9 +186,25 @@ CipherTrace is a crypto intelligence and blockchain analytics tool designed for 
 
 BankCard USA, a Californian electronic payment services provider, recently succumbed to a [ransomware attack orchestrated by the Black Basta group](https://www.suspectfile.com/westlake-village-ca-bankcard-usa-surrenders-and-pays-ransom/). After a month-long negotiation, the company agreed to pay a ransom of $50,000 in bitcoins (considerably lower than the initial demand of $500,000) to prevent the disclosure of sensitive data stolen during a cyberattack in June. The negotiation involved demands for further proof of the data's authenticity, leading to the ransomware group providing access to a vast trove of files totalling 200 GB. Subsequently, BankCard USA requested the decryption of specific documents, which were provided by Black Basta. The transaction was completed, and Black Basta claimed to have deleted the exfiltrated files. In this demonstration, we try and investigate the flow of the money paid by the firm to the BlackBasta group, by only using free tools - note that the Maltego files are available [online](https://github.com/heiseApple/blockchain-ransomware/tree/main/maltego/btc_wallet_21).
 
-The first challenge involves the retrieval of the wallet address/transactions involved in the payment of the ransom. By means of a cross-analysis, i.e., by looking for [transactions of $50,000 in the Bitcoin blockchain on the specific dates](https://blockchair.com/bitcoin/outputs?s=time(desc)&q=value_usd(49000..51000),time(2023-07-26)) reported by the news, we are able to catch the wallet address that received the ransom payment, namely `bc1qxsse7zk59khsvsegv4z7fdy0jazaex8lqgut3yfx4872f44xxwvsutuv8r`, from the following transaction involving the transfer of 1.9 BTC: `61b77478bc0a0cb7e03828fdea6cf8739ab42845f606c40a175a78a2d2dcbb80`.
+The first challenge involves the retrieval of the wallet address/transactions involved in the payment of the ransom. By means of a cross-analysis, i.e., by looking for [transactions of $50,000 in the Bitcoin blockchain on the specific dates](https://blockchair.com/bitcoin/outputs?s=time(desc)&q=value_usd(49000..51000),time(2023-07-26)) reported by the news, we are able to catch the wallet address that received the ransom payment from the transaction involving the transfer of 1.9 BTC:
+
+```
+Addr
+bc1qxsse7zk59khsvsegv4z7fdy0jazaex8lqgut3yfx4872f44xxwvsutuv8r
+
+TX
+61b77478bc0a0cb7e03828fdea6cf8739ab42845f606c40a175a78a2d2dcbb80
+```
+
 At this point, we can start our *follow-the-money* analysis using graphical tools like Maltego and/or OXT.
-Notably, after the first output transaction from the wallet address, we find a transaction, `4d2b6e0aee1c9973611755bf6a1dfe362e882a6f0c5f92d646e6da59e991ace4`, which forwards 3.73 BTC. We may hypothesise that such an amount was gathered as loot incoming from various attacks, including our 1.9 BTC ransom. This is a clear example of another challenge: during our investigations, we must make hypotheses that will (hopefully) be confirmed or rejected later on.
+Notably, after the first output transaction from the wallet address, we find a transaction that forwards 3.73 BTC.
+
+```
+TX
+4d2b6e0aee1c9973611755bf6a1dfe362e882a6f0c5f92d646e6da59e991ace4
+``````
+
+We may hypothesise that such an amount was gathered as loot incoming from various attacks, including our 1.9 BTC ransom. This is a clear example of another challenge: during our investigations, we must make hypotheses that will (hopefully) be confirmed or rejected later on.
 
 The images below depict the graph of our current analysis, respectively, from Maltego and OXT.
 
