@@ -2,7 +2,7 @@
 layout: post
 title:  "A Primer on Cryptocurrency Investigation and Forensics"
 date:   2023-09-02
-modified_date: 2023-09-08
+modified_date: 2023-09-14
 author:
   - "Mario Raciti"
 tags: dfir
@@ -169,6 +169,12 @@ Maltego is a comprehensive tool for graphical link analyses that offers real-tim
 *URL*: <https://oxt.me/>
 
 OXT is a tool designed for exploratory blockchain analysis of the Bitcoin ledger. OXT is the "Other eXploration Tool" and it should become the "Open eXploration Tool" in the future.
+
+#### Breadcrumbs
+
+*URL*: <https://www.breadcrumbs.app/>
+
+Breadcrumbs is a blockchain analytics platform that offers a range of tools for investigating, monitoring, tracking and sharing relevant information on crypto transactions. Inspired by the tale of Hansel and Gretel, the platform is committed to helping user find their way through the blockchain by following the digital breadcrumbs.
 
 #### Chainalysis
 
