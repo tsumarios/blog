@@ -73,7 +73,7 @@ In addition to traditional cryptocurrencies, [Non-Fungible Tokens (NFTs)](https:
 
 Moreover, [online gaming](https://www.wired.co.uk/news/archive/2013-10/21/money-laundering-online) has also emerged as an increasingly common avenue for money laundering. Various online games, including Second Life and World of Warcraft, enable the conversion of money into virtual goods, services, or virtual cash that can subsequently be converted back into real currency.
 
-Within the above introduction, we may now provide the most common methods – we may also refer to these as instances of [Anti-Forensics](https://www.geeksforgeeks.org/anti-forensics/) – that involves the use of cryptocurrencies leveraged by criminals to conceal dirty money.
+Within the above introduction, we may now provide the most common methods – we may also refer to these as instances of [Anti-Forensics](https://www.geeksforgeeks.org/anti-forensics/) – that involve the use of cryptocurrencies leveraged by criminals to conceal dirty money.
 
 #### Crypto Mixers
 
