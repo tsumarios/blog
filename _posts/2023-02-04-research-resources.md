@@ -2,7 +2,7 @@
 layout: post
 title:  "Research Resources"
 date:   2023-02-04
-modified_date: 2023-07-07
+modified_date: 2024-02-09
 author:
   - "Mario Raciti"
 tags: resources
@@ -18,7 +18,7 @@ A collection of useful resources for (Cybersecurity) researchers.
 ## Quick Access
 
 - [Anonymous GitHub](https://anonymous.4open.science/)
-- [Conference Ranks](https://www.conferenceranks.com)
+- [Conference Ranks](#conference-ranks)
 - [Connected Papers](https://www.connectedpapers.com/)
 - [Elicit](https://elicit.org/)
 - [Google Scholar](https://scholar.google.com/)
@@ -47,8 +47,9 @@ Anonymous GitHub allows you to simply anonymize your GitHub repository. Several 
 ### Conference Ranks
 
 *URL*: <https://www.conferenceranks.com>
+*URL*: <https://scie.lcc.uma.es/>
 
-Conference Ranks is a website that allows you to lookup the rank of a conference.
+Conference Ranks and GII-GRIN-SCIE (GGS) Conference Rating are websites that allow you to lookup the rank of a conference.
 
 ### Connected Papers
 
