@@ -2,7 +2,7 @@
 layout: post
 title:  "Research Resources"
 date:   2023-02-04
-modified_date: 2024-02-09
+modified_date: 2024-07-04
 author:
   - "Mario Raciti"
 tags: resources
@@ -18,13 +18,16 @@ A collection of useful resources for (Cybersecurity) researchers.
 ## Quick Access
 
 - [Anonymous GitHub](https://anonymous.4open.science/)
+- [ChatGPT](https://chatgpt.com/)
 - [Conference Ranks](#conference-ranks)
 - [Connected Papers](https://www.connectedpapers.com/)
 - [Elicit](https://elicit.org/)
 - [Google Scholar](https://scholar.google.com/)
 - [Grammarly](https://www.grammarly.com/)
+- [LanguageTool](https://languagetool.org/)
 - [Mendeley](https://www.mendeley.com/search/)
 - [Overleaf](https://www.overleaf.com/)
+- [Perlego AI Researcher](https://www.perlego.com/ai-researcher)
 - [ResearchGate](https://researchgate.net/)
 - [Sci-Hub](https://sci-hub.ru/)
 - [Scimago](https://www.scimagojr.com/)
@@ -43,6 +46,12 @@ The following websites provide useful resources for researchers.
 *URL*: <https://anonymous.4open.science/>
 
 Anonymous GitHub allows you to simply anonymize your GitHub repository. Several anonymisation options are available to ensure that you do not break the double-anonymise such as removing links, images or specific terms. You still keep control of your repository and define an expiration date to make your repository unavailable after the review.
+
+### ChatGPT
+
+*URL*: <https://chatgpt.com/>
+
+ChatGPT is a chatbot and virtual assistant developed by OpenAI and launched on November 30, 2022. Based on Large Language Models (LLMs), it enables users to refine and steer a conversation towards a desired length, format, style, level of detail, and language.
 
 ### Conference Ranks
 
@@ -77,6 +86,12 @@ Grammarly is an American cloud-based typing assistant. It reviews spelling, gram
 
 *A valid open-source alternative is Language Tool:* <https://languagetool.org/>.
 
+### LanguageTool
+
+*URL*: <https://languagetool.org/>
+
+LanguageTool is a free and open-source AI-based spelling, style, and grammar checker that helps correct or paraphrase texts across languages.
+
 ### Mendeley
 
 *URL*: <https://www.mendeley.com/search/>
@@ -88,6 +103,12 @@ Mendeley is a reference manager software founded in 2007 by PhD students Paul Fo
 *URL:* <https://www.overleaf.com/>
 
 Overleaf is a collaborative cloud-based LaTeX editor used for writing, editing and publishing scientific documents. It partners with a wide range of scientific publishers to provide official journal LaTeX templates and direct submission links.
+
+### Perlego AI Researcher
+
+*URL:* <https://www.perlego.com/ai-researcher>
+
+AI Researcher AI Researcher is an intelligent research assistant, designed to streamline the exploration of academic topics. It will search for a match to the user query in an extensive library of textbooks, pinpointing the most relevant works and specific passages that directly address the provided research query.
 
 ### ResearchGate
 
