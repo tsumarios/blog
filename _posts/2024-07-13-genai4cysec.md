@@ -7,7 +7,7 @@ author:
 tags: ai cti dfir
 ---
 
-As a cybersecurity professional, I have always been fascinated by the potential of leveraging Artificial Intelligence (AI) to enhance our capabilities in both defensive and offensive security tasks. This blog post introduces you to the **(Gen)AI4CySec** project, which highlights the practical applications of Generative AI (GenAI) in cybersecurity.
+This blog post introduces you to the (Gen)AI4CySec project, which highlights the practical applications of Generative AI (GenAI) in cybersecurity.
 <!-- readmore -->
 
 ![cover](https://img.freepik.com/free-photo/person-suffering-from-technology-addiction-cybersickness_23-2151552591.jpg)
@@ -24,6 +24,7 @@ As a cybersecurity professional, I have always been fascinated by the potential 
 
 ## Introduction
 
+As a cybersecurity professional, I have always been fascinated by the potential of leveraging Artificial Intelligence (AI) to enhance our capabilities in both defensive and offensive security tasks.
 The [(Gen)AI4CySec repository](https://github.com/tsumarios/GenAI4CySec) is a compilation of scripts and a Jupyter notebook developed with the assistance of ChatGPT. Recently, I attended the [Generative AI: Boost Your Cybersecurity Career](https://www.coursera.org/learn/generative-ai-boost-your-cybersecurity-career) course by IBM, which inspired me to start this project.
 The tools featured from (Gen)AI4CySec serve as educational resources, showcasing how generative AI can be utilised to perform a range of cybersecurity tasks, from ethical hacking to anti-forensics and machine learning applications.
 
