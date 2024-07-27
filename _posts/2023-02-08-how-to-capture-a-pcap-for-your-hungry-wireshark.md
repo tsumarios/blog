@@ -5,12 +5,13 @@ date:   2023-02-08
 author:
   - "Mario Raciti"
 tags: dfir
+cover_image: "https://images.unsplash.com/photo-1612708307394-2bcbf8d1fc8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80"
 ---
 
 Some notes on how to capture network packets in a .pcap format, so you can feed your hungry Wireshark.
+<!-- readmore -->
 
 ![cover](https://images.unsplash.com/photo-1612708307394-2bcbf8d1fc8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80)
-<!-- readmore -->
 
 *Packets don't lie.* ― Laura Chappell
 

@@ -8,9 +8,9 @@ tags: cryptography dfir
 ---
 
 An overview of Visual Cryptography and implementations of the main state-of-the-art techniques in the VCrytpure open-source project.
+<!-- readmore -->
 
 ![cover](https://raw.githubusercontent.com/UniCT-WebDevelopment/VCrypture/master/examples/screen_home.png)
-<!-- readmore -->
 
 *Cryptography is typically bypassed, not penetrated.* ― Adi Shamir
 

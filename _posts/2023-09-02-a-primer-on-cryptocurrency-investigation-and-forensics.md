@@ -12,6 +12,8 @@ cover_image: "https://images.unsplash.com/photo-1484069560501-87d72b0c3669"
 An introductory exploration of Cryptocurrency Investigation and Forensics, including challenges posed by money laundering techniques and the role of blockchain intelligence and taint analysis in unveiling concealed financial activities, with a demo on a real-world RaaS case.
 <!-- readmore -->
 
+![cover](https://images.unsplash.com/photo-1484069560501-87d72b0c3669)
+
 *A wise person should have money in their head, but not in their heart.* ― Jonathan Swift
 
 ## Table of Contents
