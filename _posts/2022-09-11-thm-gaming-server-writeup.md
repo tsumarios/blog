@@ -5,10 +5,13 @@ date:   2022-09-11
 author:
   - "Mario Raciti"
 tags: ctf
+cover_image: "https://img.freepik.com/free-vector/cartoon-gamer-room-illustration_23-2148918173.jpg?t=st=1722088846~exp=1722092446~hmac=f288e1af68ebef208c50708f24921ab6268d4530717adc9e75ff5427045522f8&w=1480"
 ---
 
 The aim of this room is to gain access to a gaming server built by amateurs with no experience of web development and to take advantage of the deployment system.
 <!-- readmore -->
+
+![cover](https://img.freepik.com/free-vector/cartoon-gamer-room-illustration_23-2148918173.jpg?t=st=1722088846~exp=1722092446~hmac=f288e1af68ebef208c50708f24921ab6268d4530717adc9e75ff5427045522f8&w=1480)
 
 There is only one task, indicating that we have to get two flags: `user_flag` and `root_flag`. So without any further ado, let's begin our game!
 

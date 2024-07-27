@@ -6,6 +6,7 @@ modified_date: 2022-11-19
 author:
   - "Mario Raciti"
 tags: 
+cover_image: "https://avatars.githubusercontent.com/u/23482292"
 ---
 
 Hello, World!
