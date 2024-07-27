@@ -5,10 +5,13 @@ date:   2022-09-11
 author:
   - "Mario Raciti"
 tags: ctf
+cover_image: "https://i.imgur.com/BkKtAkO.png"
 ---
 
 This Rick and Morty themed challenge requires you to exploit a webserver to find 3 ingredients that will help Rick make his potion to transform himself back into a human from a pickle.
 <!-- readmore -->
+
+![cover](https://i.imgur.com/BkKtAkO.png)
 
 There is only one task, indicating that we have to get three ingredients (flags). So without any further ado, let's begin our game!
 

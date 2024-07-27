@@ -5,10 +5,13 @@ date:   2022-09-11
 author:
   - "Mario Raciti"
 tags: ctf
+cover_image: "https://i.imgur.com/sE0HfDO.png"
 ---
 
 You can convert your videos - Why don't you check it out!
 <!-- readmore -->
+
+![cover](https://i.imgur.com/sE0HfDO.png)
 
 There is only one task, indicating that we have to get four pieces of information. So without any further ado, let's begin our game!
 
