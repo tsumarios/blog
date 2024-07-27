@@ -37,6 +37,16 @@ layout: base
     </p>
   </header>
 
+  {%- if site.show_excerpts -%}
+  <div class="post-excerpt">
+    {{ page.excerpt }}
+  </div>
+  {%- endif -%}
+
+  {%- if page.cover_image -%}
+  <img class="post-cover" src="{{ page.cover_image }}" alt="Cover Image">
+  {%- endif -%}
+
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>

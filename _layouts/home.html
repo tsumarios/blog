@@ -35,6 +35,9 @@ layout: base
             {%- if site.show_excerpts -%}
             {{ post.excerpt }}
             {%- endif -%}
+            {%- if post.cover_image -%}
+            <img class="post-cover-thumbnail" src="{{ post.cover_image }}" alt="Cover Image">
+            {%- endif -%}
         </li>
         {%- endfor -%}
     </ul>
