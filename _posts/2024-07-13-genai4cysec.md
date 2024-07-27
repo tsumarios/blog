@@ -8,9 +8,9 @@ tags: ai cti dfir
 ---
 
 This blog post introduces you to the (Gen)AI4CySec project, which highlights the practical applications of Generative AI (GenAI) in cybersecurity.
-<!-- readmore -->
 
 ![cover](https://img.freepik.com/free-photo/person-suffering-from-technology-addiction-cybersickness_23-2151552591.jpg)
+<!-- readmore -->
 
 *"The future of cybersecurity lies in the hands of those who can harness the power of AI."* ― ChatGPT
 

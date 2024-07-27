@@ -8,9 +8,9 @@ tags: docker offensive
 ---
 
 A simple dockerfile which allows you to build a docker image starting from the latest official one of Kali Linux and including some useful tools.
-<!-- readmore -->
 
 ![cover](https://www.kali.org/blog/official-kali-linux-docker-images/images/kali-linux-docker-images.jpg)
+<!-- readmore -->
 
 *Awareness without action is worthless*. - Phil McGraw
 
