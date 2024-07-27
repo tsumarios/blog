@@ -66,18 +66,20 @@ pkg install curl git python3 dnsutils neovim openssh openssl wget zip unzip node
 1. Download the Neovim and Vim Plugins configuration files:
 
     ```sh
-    curl -fLo ~/.config/nvim/init.vim --create-dirs https://raw.githubusercontent.com/hootan09/vim-termux/main/init.vim
-
-    curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/hootan09/vim-termux/main/plug.vim
+    git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
     ```
 
-2. Open Neovim and run:
+2. Open Neovim and run the following after `lazy.nvim` finishes downloading plugins.:
 
     ```sh
-    :PlugInstall
+    :MasonInstallAll
     ```
 
-    This will download and install the plugins specified in the `init.vim` file.
+3. Delete the `.git` folder:
+
+    ```sh
+    rm -rf ~/.config/nvim/git
+    ```
 
 ## Conclusions
 
@@ -88,4 +90,4 @@ With Termux, our Android device can become a powerful, portable development envi
 ### References
 
 - <https://github.com/Sohil876/Termux-zsh>
-- <https://github.com/hootan09/vim-termux>
+- <https://nvchad.com/docs/quickstart/install>
