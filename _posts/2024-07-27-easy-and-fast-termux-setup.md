@@ -10,6 +10,7 @@ tags: android resources
 A Termux setup with essential tools, configuring zsh, and enhancing Neovim with plugins.
 
 ![cover](https://img.freepik.com/free-photo/view-cartoon-animated-3d-penguin_23-2150882064.jpg?t=st=1722085076~exp=1722088676~hmac=64168ac7035e3186d87a371a614fcdad1584427a6262bd8e048605ecaf6b2840&w=1800)
+<!-- readmore -->
 
 *"The only limit to our realisation of tomorrow is our doubts of today."* ― Franklin D. Roosevelt
 

@@ -9,9 +9,9 @@ tags: web hardening
 ---
 
 WebSocket security aspects and a simple PoC about adding a ticket-based authentication layer in a WebSocket server.
-<!-- readmore -->
 
 ![cover](https://images.unsplash.com/photo-1618044619888-009e412ff12a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80)
+<!-- readmore -->
 
 *The trust of the innocent is the liar's most useful tool*. - Stephen King
 
