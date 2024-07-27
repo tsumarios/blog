@@ -6,6 +6,7 @@ modified_date: 2022-10-19
 author:
   - "Mario Raciti"
 tags: web hardening
+cover_image: "https://images.unsplash.com/photo-1618044619888-009e412ff12a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
 ---
 
 WebSocket security aspects and a simple PoC about adding a ticket-based authentication layer in a WebSocket server.

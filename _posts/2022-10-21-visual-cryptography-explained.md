@@ -5,6 +5,7 @@ date:   2022-10-21
 author:
   - "Mario Raciti"
 tags: cryptography dfir
+cover_image: "https://raw.githubusercontent.com/UniCT-WebDevelopment/VCrypture/master/examples/screen_home.png"
 ---
 
 An overview of Visual Cryptography and implementations of the main state-of-the-art techniques in the VCrytpure open-source project.

@@ -6,6 +6,7 @@ modified_date: 2022-10-18
 author:
   - "Mario Raciti"
 tags: cryptography hardening
+cover_image: "https://images.unsplash.com/photo-1634224143538-ce0221abf732?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
 ---
 
 A basic explanation about Time-based one-time password (TOTP) and a simple Python PoC.

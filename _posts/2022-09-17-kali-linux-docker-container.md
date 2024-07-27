@@ -5,6 +5,7 @@ date:   2022-09-17
 author:
   - "Mario Raciti"
 tags: docker offensive
+cover_image: "https://www.kali.org/blog/official-kali-linux-docker-images/images/kali-linux-docker-images.jpg"
 ---
 
 A simple dockerfile which allows you to build a docker image starting from the latest official one of Kali Linux and including some useful tools.
