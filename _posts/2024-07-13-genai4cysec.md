@@ -5,7 +5,6 @@ date:   2024-07-13
 author:
   - "Mario Raciti"
 tags: ai cti dfir
-cover_image: "https://img.freepik.com/free-photo/person-suffering-from-technology-addiction-cybersickness_23-2151552591.jpg"
 ---
 
 This blog post introduces you to the (Gen)AI4CySec project, which highlights the practical applications of Generative AI (GenAI) in cybersecurity.

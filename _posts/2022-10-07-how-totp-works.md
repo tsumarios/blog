@@ -9,9 +9,9 @@ tags: cryptography hardening
 ---
 
 A basic explanation about Time-based one-time password (TOTP) and a simple Python PoC.
+<!-- readmore -->
 
 ![cover](https://images.unsplash.com/photo-1634224143538-ce0221abf732?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80)
-<!-- readmore -->
 
 *Oh, it's quite simple. If you are a friend, you speak the password, and the doors will open.* ― Gandalf
 
