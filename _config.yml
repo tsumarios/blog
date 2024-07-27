@@ -25,6 +25,8 @@ kramdown:
 
 minima:
   skin: auto
+  include_stylesheets:
+    - "/assets/css/custom.scss"
 
   date_format: "%b %-d, %Y"
 
