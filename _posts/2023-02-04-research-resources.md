@@ -6,6 +6,7 @@ modified_date: 2024-07-04
 author:
   - "Mario Raciti"
 tags: resources
+cover_image: "https://images.unsplash.com/photo-1474932430478-367dbb6832c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
 ---
 
 A collection of useful resources for (Cybersecurity) researchers.
