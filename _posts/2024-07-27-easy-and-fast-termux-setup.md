@@ -13,7 +13,7 @@ A Termux setup with essential tools, configuring zsh, and enhancing Neovim with 
 
 ![cover](https://img.freepik.com/free-photo/view-cartoon-animated-3d-penguin_23-2150882064.jpg?t=st=1722085076~exp=1722088676~hmac=64168ac7035e3186d87a371a614fcdad1584427a6262bd8e048605ecaf6b2840&w=1800)
 
-*"The only limit to our realisation of tomorrow is our doubts of today."* ― Franklin D. Roosevelt
+*The only limit to our realisation of tomorrow is our doubts of today.* ― Franklin D. Roosevelt
 
 ## Table of Contents
 
@@ -30,7 +30,7 @@ Termux is an Android terminal emulator and Linux environment application that wo
 
 ## Prerequisites
 
-Before we begin, ensure having Termux installed on our Android device. It can be downloaded from the [Google Play Store](https://play.google.com/store/apps/details?id=com.termux). However, the recommended way to install Termux is from the [F-Droid repository](https://f-droid.org/en/packages/com.termux/) or the [Github repository](https://github.com/termux/termux-app).
+Before we begin, ensure you have Termux installed on your Android device. It can be downloaded from the [Google Play Store](https://play.google.com/store/apps/details?id=com.termux). However, the recommended way to install Termux is from the [F-Droid repository](https://f-droid.org/en/packages/com.termux/) or the [Github repository](https://github.com/termux/termux-app).
 
 ## Setup
 
