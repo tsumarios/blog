@@ -2,7 +2,7 @@
 layout: post
 title:  "Research Resources"
 date:   2023-02-04
-modified_date: 2024-07-04
+modified_date: 2024-11-04
 author:
   - "Mario Raciti"
 tags: resources
@@ -25,6 +25,7 @@ A collection of useful resources for (Cybersecurity) researchers.
 - [Elicit](https://elicit.org/)
 - [Google Scholar](https://scholar.google.com/)
 - [Grammarly](https://www.grammarly.com/)
+- [Incident DBs](#incident-dbs)
 - [LanguageTool](https://languagetool.org/)
 - [Mendeley](https://www.mendeley.com/search/)
 - [Overleaf](https://www.overleaf.com/)
@@ -86,6 +87,48 @@ Google Scholar is a freely accessible web search engine that indexes the full te
 Grammarly is an American cloud-based typing assistant. It reviews spelling, grammar, punctuation, clarity, engagement, and delivery mistakes in English texts, detects plagiarism and suggests replacements for the identified errors. It also allows users to customise their style, tone, and context-specific language.
 
 *A valid open-source alternative is Language Tool:* <https://languagetool.org/>.
+
+### Incident DBs
+
+The following websites provide databases on cybersecurity, privacy, and/or AI-related incidents, events, and vulnerabilities.
+
+*Disclaimer: most of the DBs linked in this subsection are extracted from <https://shostack.org/resources/lessons>.*
+
+#### Cybersecurity & Privacy
+
+- [European Repository of Cyber Incidents (EuRepoC)](https://eurepoc.eu/) is an independent research consortium dedicated to providing evidence-based scientific analysis of cyber incidents for a better understanding of the current cyber threat environment.
+
+- [Verica Open Incident Database](https://www.thevoid.community/) is a community-contributed collection of software-related incident reports.
+
+- Adrian Sanabara maintains a [list of companies that have gone out of business](https://docs.google.com/spreadsheets/d/15CTPcgZQenWKDLDTQ2ibveUM4i7Of_n20TzdTi23xcg/edit#gid=1357859852) due a breach.
+
+- [Privacy Rights.org](https://privacyrights.org/data-breaches) maintains a database of data from breaches reported to states Attorneys General and to HHS.
+
+- [Have I Been Pwned?](https://haveibeenpwned.com/) is a website that allows Internet users to check whether their personal data has been compromised by data breaches.
+
+- [CSIS](https://www.csis.org/programs/strategic-technologies-program/significant-cyber-incidents) maintains a timeline of significant cyber incidents since 2006, focusing on cyber attacks on government agencies, defence and high tech companies, or economic crimes with losses of more than a million dollars.
+
+- [Board Cybersecurity](https://www.board-cybersecurity.com/incidents/tracker/) has an incident tracker focused on public company SEC filings.
+
+- [Cybersecurity Data Breaches](https://databreachdb.com/) apparently not updated since June 2020.
+
+- The Atlantic Council maintains a [Supply Chain Security dataset](https://www.atlanticcouncil.org/commentary/trackers-and-data-visualizations/breaking-trust-the-dataset/). (The page says last updated July 2020, but the spreadsheet has data through May, 2022.)
+
+- A set of researchers led by Jack Cable have released a [ransomware dataset](https://github.com/cablej/showing-the-receipts?tab=readme-ov-file) showing over 1,000 cryptocurrency addresses.
+
+- [CVE MITRE](https://cve.mitre.org/) identifies, defines, and catalogs publicly disclosed cybersecurity vulnerabilities.
+
+#### AI
+
+- [AI Incident Database](https://incidentdatabase.ai/) has many ties to Georgetown’s Center for Security and Emerging Technology.
+
+- [AI Incidents Database](https://partnershiponai.org/workstream/ai-incidents-database/) by the Partnership on AI.
+
+- [AIAAIC (AI, Algorithmic, and Automation Incidents and Controversies)](https://www.aiaaic.org/home) is an independent, non-partisan, public interest initiative.
+
+- [OECD](https://oecd.ai/en/incidents?search_terms=%5B%5D&and_condition=false&from_date=2014-01-01&to_date=2024-02-05&properties_config=%7B%22principles%22:%5B%5D,%22industries%22:%5B%5D,%22harm_types%22:%5B%5D,%22harm_levels%22:%5B%5D,%22harmed_entities%22:%5B%5D%7D&only_threats=false&order_by=date&num_results=20) run by the OECD for policymakers.
+
+- [Sightline](https://sightline.protectai.com/), from Protectai, is more vulnerability focused than incident focused.
 
 ### LanguageTool
 
