@@ -2,6 +2,7 @@
 layout: post
 title:  "(Gen)AI4CySec"
 date:   2024-07-13
+modified_date: 2024-11-12
 author:
   - "Mario Raciti"
 tags: ai cti dfir
@@ -21,6 +22,7 @@ This blog post introduces you to the (Gen)AI4CySec project, which highlights the
 - [A Primer on the Project](#a-primer-on-the-project)
 - [Overview of GenAI Scripts](#overview-of-genai-scripts)
 - [AI4CySec Notebook](#ai4cysec-notebook)
+- [LLM-Powered Applications](#llm-powered-applications)
 - [Conclusions](#conclusions)
 
 ## Introduction
@@ -43,7 +45,7 @@ The repository features several scripts designed to illustrate different aspects
 
 ### RAM Reserver (ram_reserver.c)
 
-*URL:* <https://github.com/tsumarios/GenAI4CySec/blob/main/ram_reserver.c>
+*URL:* <https://github.com/tsumarios/GenAI4CySec/blob/main/scripts/ram_reserver.c>
 
 **Description:** This C script is designed to allocate a large portion of RAM, putting the system under memory pressure and potentially causing a Denial of Service (DoS) condition.
 
@@ -51,7 +53,7 @@ The repository features several scripts designed to illustrate different aspects
 
 ### Cookie Manipulator (cookie_manipulator.py)
 
-*URL:* <https://github.com/tsumarios/GenAI4CySec/blob/main/cookie_manipulator.py>
+*URL:* <https://github.com/tsumarios/GenAI4CySec/blob/main/scripts/cookie_manipulator.py>
 
 **Description:** This Python script is written to provide multiple manipulation techniques to add/edit/remove HTTP cookies from most modern browsers.
 
@@ -59,7 +61,7 @@ The repository features several scripts designed to illustrate different aspects
 
 ### DOCX Terminator (docx_terminator.py)
 
-*URL:* <https://github.com/tsumarios/GenAI4CySec/blob/main/docx_terminator.py>
+*URL:* <https://github.com/tsumarios/GenAI4CySec/blob/main/scripts/docx_terminator.py>
 
 **Description:** A Python script that locates and removes DOCX files from a specified directory.
 
@@ -67,7 +69,7 @@ The repository features several scripts designed to illustrate different aspects
 
 ### Keystroke Logger (keystroke_logger.py)
 
-*URL:* <https://github.com/tsumarios/GenAI4CySec/blob/main/keystroke_logger.py>
+*URL:* <https://github.com/tsumarios/GenAI4CySec/blob/main/scripts/keystroke_logger.py>
 
 **Description:** A basic Python keystroke logger that captures and logs keystrokes to understand the mechanics of keylogging.
 
@@ -75,7 +77,7 @@ The repository features several scripts designed to illustrate different aspects
 
 ### Local Port Blocker (local_port_blocker.py)
 
-*URL:* <https://github.com/tsumarios/GenAI4CySec/blob/main/local_port_blocker.py>
+*URL:* <https://github.com/tsumarios/GenAI4CySec/blob/main/scripts/local_port_blocker.py>
 
 **Description:** This Python script blocks specified local ports by calling iptables.
 
@@ -83,7 +85,7 @@ The repository features several scripts designed to illustrate different aspects
 
 ### Spyware (spyware.py)
 
-*URL:* <https://github.com/tsumarios/GenAI4CySec/blob/main/spyware.py>
+*URL:* <https://github.com/tsumarios/GenAI4CySec/blob/main/scripts/spyware.py>
 
 **Description:** A simple example of Python spyware to illustrate common techniques used in malicious software, such as data exfiltration and user activity monitoring.
 
@@ -91,7 +93,7 @@ The repository features several scripts designed to illustrate different aspects
 
 ### Spyware Detector (spyware_detector.sh)
 
-*URL:* <https://github.com/tsumarios/GenAI4CySec/blob/main/spyware_detector.sh>
+*URL:* <https://github.com/tsumarios/GenAI4CySec/blob/main/scripts/spyware_detector.sh>
 
 **Description:** A shell script to detect and remove spyware by scanning for known signatures and behaviours.
 
@@ -99,7 +101,7 @@ The repository features several scripts designed to illustrate different aspects
 
 ## AI4CySec Notebook
 
-*URL:* <https://github.com/tsumarios/GenAI4CySec/blob/main/ai4cysec.ipynb>
+*URL:* <https://github.com/tsumarios/GenAI4CySec/blob/main/notebooks/ai4cysec.ipynb>
 
 Beyond the individual scripts, the repository also includes a comprehensive Jupyter notebook that explores the application of Machine Learning (ML) techniques in cybersecurity. The notebook features several key components:
 
@@ -116,13 +118,25 @@ Algorithms Used: K-Nearest Neighbors, Naive Bayes, Logistic Regression, Support 
 
 **Use Case:** Provides insights into how adversarial attacks can be used to deceive ML models and the importance of developing robust models.
 
-### Ethical Considerations
+## LLM-Powered Applications
 
-While these scripts and the notebook serve as valuable educational tools, it is crucial to emphasise ethical considerations. The tools developed in this repository should be used strictly for educational and research purposes. Unauthorised use of these tools for malicious activities is illegal and unethical.
+Last but not least, the repository also includes the following LLM-powered applications.
+
+### ACH-Based Threat Modelling
+
+*URL:* <https://github.com/tsumarios/GenAI4CySec/blob/main/llm_apps/ach_llm_app.py>
+
+**Description:** A Python script that creates a Web application for conducting Threat Modelling brainstorming by means of an Analysis of Competing Hypotheses (ACH).
+
+**Use Case:** Enables users to generate potential threat hypotheses, gather supporting or refuting evidence, and perform consistency scoring, aiding in the identification of the most likely threat scenario.
 
 ## Conclusions
 
 The **(Gen)AI4CySec** project showcases the powerful synergy between generative AI and cybersecurity. By leveraging AI tools, in particular LLMs like ChatGPT, cybersecurity professionals can develop innovative solutions and gain deeper insights into both defensive and offensive security strategies. Explore the repository, experiment with the scripts, and delve into the AI4CySec notebook to enhance your understanding of AI-driven cybersecurity techniques.
+
+### Ethical Considerations
+
+While these open-source files serve as valuable educational tools, it is crucial to emphasise ethical considerations. The tools developed in this repository should be used strictly for educational and research purposes. Unauthorised use of these tools for malicious activities is illegal and unethical.
 
 ---
 
