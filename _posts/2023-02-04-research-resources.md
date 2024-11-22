@@ -217,7 +217,7 @@ The following websites provide details of relevant Cybersecurity events:
 
 - **CyberSec4Europe Events**: <https://cybersec4europe.eu/events/>
 
-## CySec and Privacy Seasonal Schools
+### CySec and Privacy Seasonal Schools
 
 A collection of seasonal schools, mainly (but not limited to) on Cybersecurity, Privacy, AI.
 
