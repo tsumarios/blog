@@ -2,7 +2,7 @@
 layout: post
 title:  "Research Resources"
 date:   2023-02-04
-modified_date: 2024-11-04
+modified_date: 2024-11-22
 author:
   - "Mario Raciti"
 tags: resources
@@ -38,6 +38,7 @@ A collection of useful resources for (Cybersecurity) researchers.
 - [Zoterolib](https://zbib.org/)
 - [Top CySec Conferences Ranking](http://jianying.space/conference-ranking.html)
 - [CySec Conferences Deadlines and Events](#cysec-conferences-deadlines-and-events)
+- [CySec and Privacy Seasonal Schools](#cysec-and-privacy-seasonal-schools)
 
 ## General Research Resources
 
@@ -215,3 +216,21 @@ The following websites provide deadline details of relevant Cybersecurity confer
 The following websites provide details of relevant Cybersecurity events:
 
 - **CyberSec4Europe Events**: <https://cybersec4europe.eu/events/>
+
+## CySec and Privacy Seasonal Schools
+
+A collection of seasonal schools, mainly (but not limited to) on Cybersecurity, Privacy, AI.
+
+|School|Location|Link|
+|-|-|-|
+|International School on Complexity|Erice, IT|<https://indico.lucas.lu.se/event/2901/overview>|
+|Fuzzing and Software Security|Singapore, SG|<https://fuzzing.comp.nus.edu.sg/>|
+|Cybersecurity and Privacy (CySeP) Summer School|Stockholm, SE|<https://cysep.conf.kth.se/>|
+|IFOSS|Sampieri, IT|<https://www.ifoss.it/>|
+|Cyber in Berry|Bourges, FR|<https://cyberinberry2.sciencesconf.org/>|
+|CISPA Usable Security|Saarbruecken, DE|<https://cispa.de/summer-school>|
+|ICSSS|The Hague, NL|<https://summerschoolcybersecurity.org/>|
+|Summer School on Security Testing and Verification|Brussels, BE|<https://cybersecurity-research.be/summer-school-on-security-testing-and-verification-2024>|
+|Summer School on Security and Privacy in the Age of AI|Heverlee, BE|<https://cybersecurity-research.be/summer-school-on-security-privacy-in-the-age-of-ai-2024>|
+|Graz Security Week (Security and Correctness)|Graz, AT|<https://www.iaik.tugraz.at/event/graz-security-week-2024/>|
+|Finse Cyber Security Winter School|Finse, NO|<https://www.mn.uio.no/ifi/english/research/networks/p4c/finse-2025/>|
