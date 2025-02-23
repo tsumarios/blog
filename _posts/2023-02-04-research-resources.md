@@ -234,3 +234,6 @@ A collection of seasonal schools, mainly (but not limited to) on Cybersecurity, 
 |Summer School on Security and Privacy in the Age of AI|Heverlee, BE|<https://cybersecurity-research.be/summer-school-on-security-privacy-in-the-age-of-ai-2024>|
 |Graz Security Week (Security and Correctness)|Graz, AT|<https://www.iaik.tugraz.at/event/graz-security-week-2024/>|
 |Finse Cyber Security Winter School|Finse, NO|<https://www.mn.uio.no/ifi/english/research/networks/p4c/finse-2025/>|
+|MOZAIK Winter School|Heverlee, BE|<https://www.esat.kuleuven.be/cosic/projects/mozaik/mozaik-winter-school/>|
+|CYRENZH Summer School|Zurich, CH|<https://cyrenzh.ch/summer-school-2025/>|
+|Summer School on Real-world Crypto and Privacy|Dubrovnik, HR|<https://summerschool-croatia.cs.ru.nl/2025/index.html>|
