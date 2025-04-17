@@ -30,9 +30,6 @@ minima:
 
   social_links:
 
-    - title: RSS
-      icon: rss
-      url: "/blog/feed.xml"
     - title: GitHub
       icon: github
       url: "https://github.com/tsumarios"
