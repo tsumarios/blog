@@ -2,7 +2,7 @@
 layout: post
 title:  "Research Resources"
 date:   2023-02-04
-modified_date: 2024-11-22
+modified_date: 2025-05-13
 author:
   - "Mario Raciti"
 tags: resources
@@ -237,3 +237,4 @@ A collection of seasonal schools, mainly (but not limited to) on Cybersecurity, 
 |MOZAIK Winter School|Heverlee, BE|<https://www.esat.kuleuven.be/cosic/projects/mozaik/mozaik-winter-school/>|
 |CYRENZH Summer School|Zurich, CH|<https://cyrenzh.ch/summer-school-2025/>|
 |Summer School on Real-world Crypto and Privacy|Dubrovnik, HR|<https://summerschool-croatia.cs.ru.nl/2025/index.html>|
+|Summer School on Artificial Intelligence and Cybersecurity|Vienna, AT|<https://staging.aisec-summerschool.cysec.wien/>|
