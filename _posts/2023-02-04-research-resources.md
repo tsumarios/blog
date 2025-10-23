@@ -2,7 +2,7 @@
 layout: post
 title:  "Research Resources"
 date:   2023-02-04
-modified_date: 2025-05-13
+modified_date: 2025-10-23
 author:
   - "Mario Raciti"
 tags: resources
@@ -212,6 +212,7 @@ The following websites provide deadline details of relevant Cybersecurity confer
 - **Security and Privacy Conference Deadlines**: <https://sec-deadlines.github.io/>
 - **System and Security Conference Deadlines**: <https://xiaoguang.wang/syssec-deadlines/>
 - **SSE Conference Deadlines**: <https://deadlines.sse.in.tum.de/>
+- **AI Conference Deadlines**: <http://aideadlines.org/?sub=ML,CV,NLP,RO,SP,DM,AP,KR,HCI,IRSM,MISC>
 
 The following websites provide details of relevant Cybersecurity events:
 
