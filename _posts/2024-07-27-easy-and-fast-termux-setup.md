@@ -2,6 +2,7 @@
 layout: post
 title:  "Easy and Fast Termux Setup"
 date:   2024-07-27
+modified_date: 2026-02-07
 author:
   - "Mario Raciti"
 tags: android resources
@@ -69,10 +70,11 @@ pkg install curl git python3 dnsutils neovim openssh openssl wget zip unzip node
     git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
     ```
 
-2. Open Neovim and run the following after `lazy.nvim` finishes downloading plugins.:
+2. Open Neovim and run the following commands after `lazy.nvim` finishes downloading plugins.:
 
     ```sh
     :MasonInstallAll
+    :TSInstallAll
     ```
 
 3. Delete the `.git` folder:
